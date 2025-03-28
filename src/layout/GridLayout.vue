@@ -4,7 +4,7 @@ import { onMounted } from "vue";
 import { onUnmounted } from "vue";
 import { MoreFilled } from '@element-plus/icons-vue';
 
-import SwitchTheme from '../components/SwitchTheme.vue';
+import SwitchTheme from '@/components/SwitchTheme.vue';
 
 const isMobile = ref(false);
 const judgeDevice = () => { isMobile.value = window.innerWidth < 600; }

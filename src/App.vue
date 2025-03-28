@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
 import { onMounted } from 'vue';
-import layout from "./layout/GridLayout.vue";
+import layout from "@/layout/GridLayout.vue";
 
 const nav = [
   { name: '1', to: '/' },

@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
 import { onMounted } from 'vue';
+import layout from "./layout/GridLayout.vue";
+
+const nav = [
+  { name: '1', to: '/' },
+  { name: '2', to: '/', child: [{ name: '2-1', to: '/' }] }
+];
 
 onMounted(() => {
   document.body.addEventListener('touchmove', function (e) {
@@ -10,19 +16,11 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="app-box">
+  <layout :nav="nav" title="Vite 模板">
     <RouterView></RouterView>
-  </div>
+  </layout>
 </template>
 
 <style scoped>
-.app-box {
-    display: block;
-    max-width: 100vw;
-    max-height: 100vh;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 </style>

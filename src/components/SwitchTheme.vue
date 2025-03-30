@@ -4,17 +4,10 @@ import { Moon, Sunny } from "@element-plus/icons-vue";
 import { useColorScheme } from "@/store/ColorScheme";
 
 const cs = useColorScheme();
-const isDark = ref(false);
+const isDark = ref(cs.isDark);
 
 watch(isDark, (newVal: boolean) => {
     cs.switch(newVal ? 'dark' : 'light');
-});
-
-onMounted(() => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        cs.switch("dark");
-        isDark.value = true;
-    }
 });
 </script>
 

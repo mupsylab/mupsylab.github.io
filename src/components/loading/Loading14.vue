@@ -72,9 +72,11 @@ export default {
 .loader .face.face1 .circle {
     transform: rotate(-45deg);
 }
+
 .loader .face.face2 .circle {
     transform: rotate(-45deg);
 }
+
 .loader .face .circle:before {
     content: '';
     position: absolute;
@@ -89,30 +91,29 @@ export default {
 .loader .face.face1 .circle:before {
     background: #ffff00;
     box-shadow: 0 0 20px #ff0,
-                0 0 40px #ff0,
-                0 0 60px #ff0,
-                0 0 80px #ff0,
-                0 0 100px #ff0,
-                0 0 0 5px rgba(255, 255, 0, .1);
+        0 0 40px #ff0,
+        0 0 60px #ff0,
+        0 0 80px #ff0,
+        0 0 100px #ff0,
+        0 0 0 5px rgba(255, 255, 0, .1);
 }
 
 .loader .face.face2 .circle:before {
     background: #03a9f4;
     box-shadow: 0 0 20px #03a9f4,
-                0 0 40px #03a9f4,
-                0 0 60px #03a9f4,
-                0 0 80px #03a9f4,
-                0 0 100px #03a9f4,
-                0 0 0 5px rgba(3, 169, 244, .1);
+        0 0 40px #03a9f4,
+        0 0 60px #03a9f4,
+        0 0 80px #03a9f4,
+        0 0 100px #03a9f4,
+        0 0 0 5px rgba(3, 169, 244, .1);
 }
 
 @keyframes animate {
-    0%
-    {
+    0% {
         transform: rotate(0deg);
     }
-    100%
-    {
+
+    100% {
         transform: rotate(360deg);
     }
 }

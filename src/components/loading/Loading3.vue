@@ -18,8 +18,10 @@ export default {
 
 h2
 {
+    grid-column: 1 / 13;
     position: relative;
-    font-size: 14vw;
+    font-size: 14vh;
+    line-height: 14vh;
     color: #252839;
     -webkit-text-stroke: 0.3vw #383d52;
     text-transform: uppercase;
@@ -32,7 +34,6 @@ h2::before
     top: 0;
     left: 0;
     width: 50%;
-    height: 100%;
     color: #01fe87;
     -webkit-text-stroke: 0vw #383d52;
     border-right: 2px solid #01fe87;

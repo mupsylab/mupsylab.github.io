@@ -17,9 +17,10 @@ export default {
 <style scoped>
 .container
 {
+    grid-column: 1 / 13;
     position: relative;
     width: 100%;
-    transform: rotate(-35deg);
+    transform: rotate(-30deg) translateY(150px);
 }
 .container .box
 {

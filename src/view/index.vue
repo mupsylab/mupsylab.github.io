@@ -1,16 +1,15 @@
-<script setup lang="ts">
-const r: number[] = [];
-while (r.length < 12) {
-    r.push(r.length + 1);
-}
-</script>
-
 <template>
-    <div v-for="item in r" class="c">{{ item }}</div>
+    <div class="c" style="grid-column: 1 / 13;"></div>
+    <div class="c" style="grid-column: 1 / 5;"></div>
+    <div class="c" style="grid-column: 5 / 13;"></div>
+    <div class="c" style="grid-column: 1 / 9;"></div>
+    <div class="c" style="grid-column: 9 / 13;"></div>
 </template>
 
 <style scoped>
 .c {
+    display: block;
+    min-height: 64px;
     background-color: var(--opacity-red-25);
 }
 </style>

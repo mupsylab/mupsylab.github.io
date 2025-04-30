@@ -85,8 +85,12 @@ const props = defineProps<{ nav: Array<Navigation>, title: string }>();
     display: grid;
     width: 100%;
     max-width: 1200px;
+    min-height: calc(100vh - 60px);
     margin: 0 auto;
+    box-sizing: border-box;
+    padding: 14px 7px;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 10px;
+    grid-row-gap: 15px;
 }
 </style>

@@ -35,6 +35,7 @@ export default {
 <style scoped>
 .loader
 {
+    grid-column: 1 / 13;
     position: relative;
     width: 250px;
     height: 250px;

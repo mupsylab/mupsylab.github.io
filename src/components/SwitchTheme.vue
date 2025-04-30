@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref, watch } from "vue";
+import { ref, watch } from "vue";
 import { Moon, Sunny } from "@element-plus/icons-vue";
 import { useColorScheme } from "@/store/ColorScheme";
 

@@ -5,11 +5,21 @@ import layout from "@/layout/GridLayout.vue";
 
 const router = useRouter();
 
-const nav = [];
-const navItem = {};
+const nav: Array<{
+  name: string,
+  to: string,
+  child: Array<{
+    name: string,
+    to: string
+  }>
+}> = [];
+const navItem: Record<string, Array<{
+  name: string,
+  to: string
+}>> = {};
 router.options.routes.forEach((item) => {
-  if (!/(\S+)-(\S+)/.test(item.name)) return; // 排除404页面
-  const [_, root, name] = item.name.match(/(\S+)-(\S+)/) || [undefined, "", ""];
+  if (!/(\S+)-(\S+)/.test(item.name as string)) return; // 排除404页面
+  const [_, root, name] = (item.name as string).match(/(\S+)-(\S+)/) || [undefined, "", ""];
   if (root in navItem) {
     navItem[root].push({ name, to: item.path });
   } else {
@@ -33,6 +43,4 @@ onMounted(() => {
   </layout>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

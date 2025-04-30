@@ -2,6 +2,15 @@ import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
+function generateRandomCode(): string {
+  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  let result = '';
+  for (let i = 0; i < 4; i++) {
+    result += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return result;
+}
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
@@ -16,7 +25,7 @@ export default defineConfig({
       output: {
         manualChunks(id, {  }) {
           if (id.includes('node_modules')) {
-            return 'vendor';
+            return 'vendor' + generateRandomCode();
           }
         }
       },

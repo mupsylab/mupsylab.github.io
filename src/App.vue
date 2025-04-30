@@ -1,12 +1,24 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router';
+import { RouterView, useRouter } from 'vue-router';
 import { onMounted } from 'vue';
 import layout from "@/layout/GridLayout.vue";
 
-const nav = [
-  { name: '1', to: '/' },
-  { name: '2', to: '/', child: [{ name: '2-1', to: '/' }] }
-];
+const router = useRouter();
+
+const nav = [];
+const navItem = {};
+router.options.routes.forEach((item) => {
+  if (!/(\S+)-(\S+)/.test(item.name)) return; // 排除404页面
+  const [_, root, name] = item.name.match(/(\S+)-(\S+)/) || [undefined, "", ""];
+  if (root in navItem) {
+    navItem[root].push({ name, to: item.path });
+  } else {
+    navItem[root] = [{ name, to: item.path }];
+  }
+});
+Object.keys(navItem).forEach((key) => {
+  nav.push({ name: key, to: `/${key}`, child: navItem[key] });
+});
 
 onMounted(() => {
   document.body.addEventListener('touchmove', function (e) {

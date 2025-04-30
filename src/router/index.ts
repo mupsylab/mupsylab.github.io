@@ -11,12 +11,10 @@ const routes = [
 ];
 
 const files = import.meta.glob('@/components/**/*.vue', {
-  eager: true,
-  import: 'default',
-  query: '?component'
+  eager: false,
 }) as Record<string, any>;
 const pattern = /components\/(.*?)\/(\S+)\.vue/;
-Object.keys(files).map((key) => {
+Object.keys(files).map(async (key) => {
   if (!pattern.test(key)) { return; }
   const [_, root, name] = key.match(pattern) || [undefined, "", ""];
   routes.push({

@@ -69,11 +69,18 @@ const props = defineProps<{ nav: Array<Navigation>, title: string }>();
     </el-container>
 </template>
 
-<style lang="css" scoped>
+<style>
 .el-menu--horizontal > .el-menu-item:nth-child(1) {
     margin-right: auto;
 }
 
+.el-popper {
+    max-height: 300px;
+    overflow: auto;
+}
+</style>
+
+<style lang="css" scoped>
 .el-main {
     display: grid;
     width: 100%;

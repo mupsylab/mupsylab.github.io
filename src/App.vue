@@ -27,6 +27,11 @@ router.options.routes.forEach((item) => {
   }
 });
 Object.keys(navItem).forEach((key) => {
+  navItem[key].sort((a, b) => {
+    const ia = a.name.match(/\d+/) != null ? parseInt((a.name.match(/\d+/) as Array<string>)[0]) : 0;
+    const ib = b.name.match(/\d+/) ? parseInt((b.name.match(/\d+/) as Array<string>)[0]) : 0;
+    return ia - ib;
+  });
   nav.push({ name: key, to: `/${key}`, child: navItem[key] });
 });
 

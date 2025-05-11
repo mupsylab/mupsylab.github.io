@@ -55,20 +55,20 @@ export type KeyGenerate =
   | ((id: string, meta: Map<string, any>) => string)
   | ((id: string, meta: Map<string, any>, data: Map<string, any>) => string)
 export abstract class BaseChart extends Ani {
-  yAxisWidth: number
-  xAxisHeight: number
+  yAxisWidth!: number
+  xAxisHeight!: number
   yAxisPadding: number = 4
   xAxisPadding: number = 4
-  maxIntervalMS: number
-  dataGroupByDate: Map<any, any[]>
+  maxIntervalMS!: number
+  dataGroupByDate!: Map<any, any[]>
   visualRange: 'total' | 'current' | 'history' | [number, number] = 'current'
-  interpolateInitValue: number
-  indexToDate: Map<number, string>
+  interpolateInitValue!: number
+  indexToDate!: Map<number, string>
   nonstandardDate: any
-  dataFadeMS: number
-  showAxis: boolean
-  showXAxis: boolean
-  showYAxis: boolean
+  dataFadeMS!: number
+  showAxis!: boolean
+  showXAxis!: boolean
+  showYAxis!: boolean
   ignoreNaN: boolean = true
   constructor (options: BaseChartOptions = {}) {
     super()
@@ -102,7 +102,7 @@ export abstract class BaseChart extends Ani {
   }
 
   tickKeyFrameDuration: number = 1
-  dataScales: Map<string, any>
+  dataScales!: Map<string, any>
   idField = 'id'
   colorField: string | KeyGenerate = 'id'
   imageField: string | KeyGenerate = 'id'
@@ -110,30 +110,30 @@ export abstract class BaseChart extends Ani {
   valueField = 'value'
   valueKeys = ['value']
   imageKey = 'image'
-  shape: { width: number, height: number }
+  shape!: { width: number, height: number }
   position = { x: 0, y: 0 }
   margin = { left: 20, top: 20, right: 20, bottom: 20 }
-  aniTime: [number, number]
+  aniTime!: [number, number]
   freezeTime: [number, number] = [2, 2]
   fadeTime: [number, number] = [0.5, 0]
-  data: any[]
-  dataGroupByID: Map<string, any>
-  meta: Map<string, any>
+  data!: any[]
+  dataGroupByID!: Map<string, any>
+  meta!: Map<string, any>
 
   dataName = 'data'
   metaName = 'meta'
-  alphaScale: ScaleLinear<number, number, never>
-  secToDate: ScaleLinear<number, Date, never>
+  alphaScale!: ScaleLinear<number, number, never>
+  secToDate!: ScaleLinear<number, Date, never>
   dateFormat = '%Y-%m-%d'
 
   xTickFormat = format(',d')
   yTickFormat = format(',d')
-  totallyMax: number
-  totallyMin: number
-  currentMax: number
-  currentMin: number
-  historyMax: number
-  historyMin: number
+  totallyMax!: number
+  totallyMin!: number
+  currentMax!: number
+  currentMin!: number
+  historyMax!: number
+  historyMin!: number
 
   async setup (stage: Stage, parent: Ani) {
     await super.setup(stage, parent)
@@ -233,14 +233,14 @@ export abstract class BaseChart extends Ani {
       let secList = dateList.map((d) => this.secToDate.invert(d))
       if (this.ignoreNaN) {
         const nanIndex: number[] = []
-        secList.forEach((s, i) => {
+        secList.forEach((_, i) => {
           if (i === 0) return
           if (isNaN(dataList[i][this.valueField])) {
             nanIndex.push(i)
           }
         })
-        dataList = dataList.filter((d, i) => !nanIndex.includes(i))
-        secList = secList.filter((s, i) => !nanIndex.includes(i))
+        dataList = dataList.filter((_, i) => !nanIndex.includes(i))
+        secList = secList.filter((_, i) => !nanIndex.includes(i))
       }
       // 线性插值
       const dataScale = scaleLinear(secList, dataList).clamp(true)
@@ -473,7 +473,7 @@ export abstract class BaseChart extends Ani {
     format: (v: number | { valueOf: () => number }) => string,
     scale0: ScaleLinear<number, number, never>,
     scale1: ScaleLinear<number, number, never>,
-    pos: number,
+    _pos: number,
     count: number,
     text: TextOptions,
     type: 'x' | 'y',

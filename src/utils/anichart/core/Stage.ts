@@ -17,12 +17,12 @@ export class Stage {
     splitSec: 60,
   }
 
-  interval: Timer | null
-  output: boolean
+  interval: Timer | undefined | null
+  output: boolean | undefined
   outputConcurrency = 128
   mode = 'output'
   private cFrame = 0
-  private alreadySetup: boolean
+  private alreadySetup: boolean | undefined
 
   get frame (): number {
     return this.cFrame

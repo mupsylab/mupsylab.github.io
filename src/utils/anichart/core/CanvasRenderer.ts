@@ -13,9 +13,9 @@ export class CanvasRenderer implements Renderer {
     return this.canvas.toDataURL('image/png', 0.99)
   }
 
-  canvas: HTMLCanvasElement
-  ctx: CanvasRenderingContext2D
-  stage: Stage
+  canvas!: HTMLCanvasElement
+  ctx!: CanvasRenderingContext2D
+  stage!: Stage
   constructor (canvas?: HTMLCanvasElement) {
     if (canvas != null) this.setCanvas(canvas)
   }

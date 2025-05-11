@@ -12,11 +12,11 @@ export interface GridAniOptions {
 }
 
 export class GridAni extends Ani {
-  col: number
-  row: number
-  items: Ani[]
-  position: { x: number, y: number }
-  shape: { width: number, height: number }
+  col!: number
+  row!: number
+  items!: Ani[]
+  position!: { x: number, y: number }
+  shape!: { width: number, height: number }
   constructor (options?: GridAniOptions) {
     super()
     if (options != null) {
@@ -28,7 +28,7 @@ export class GridAni extends Ani {
     }
   }
 
-  wrapper: Component
+  wrapper!: Component
   async setup (stage: Stage, parent?: Ani) {
     await super.setup(stage, parent)
     if (!this.shape) {

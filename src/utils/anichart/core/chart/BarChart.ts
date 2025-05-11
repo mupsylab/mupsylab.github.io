@@ -48,12 +48,12 @@ export class BarChart extends BaseChart {
   barFontSizeScale: number = 0.9
   showRankLabel: boolean
   private readonly rankPadding = 10
-  rankLabelPlaceholder: number
+  rankLabelPlaceholder!: number
   reduceID = true
   dy: number
   barInfoOptions: Omit<TextOptions, 'key'> = {}
-  domain: (data: any) => [number, number]
-  totalHistoryIndex: Map<any, any>
+  domain!: (data: any) => [number, number]
+  totalHistoryIndex!: Map<any, any>
   clipBar: boolean = true
   get maxRankLabelWidth (): number {
     return canvasHelper.measure(
@@ -84,15 +84,15 @@ export class BarChart extends BaseChart {
   swapDurationMS = 300
   rankOffset = 1
   lastValue = new Map<string, number>()
-  labelPlaceholder: number
-  valuePlaceholder: number
+  labelPlaceholder!: number
+  valuePlaceholder!: number
   showDateLabel: boolean = true
 
   barInfoFormat = (id: any, meta: Map<string, any>, data: Map<string, any>) => {
     return this.labelFormat(id, meta, data)
   }
 
-  IDList: string[]
+  IDList!: string[]
   async setup (stage: Stage, ani: Ani) {
     await super.setup(stage, ani)
     // 获得曾出现过的Label集合

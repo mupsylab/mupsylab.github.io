@@ -5,7 +5,7 @@ export class Ani {
   stage?: Stage
   parent?: Ani
   children: Ani[] = []
-  getComponent (sec: number) {
+  getComponent (sec: number): any {
     return new Component({ key: 'ani-root' }, this.children.map(ani => ani.getComponent(sec)))
   }
 

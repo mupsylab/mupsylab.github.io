@@ -46,11 +46,11 @@ export class Text extends Component {
   }
 
   text: string = ''
-  textAlign: TextAlign
-  textBaseline: TextBaseline
-  fontVariant: FontVariant
-  fontWeight: FontWeight
-  fontStyle: FontStyle
+  textAlign!: TextAlign
+  textBaseline!: TextBaseline
+  fontVariant!: FontVariant
+  fontWeight!: FontWeight
+  fontStyle!: FontStyle
   fontSize: number = 24
   font: string = font
 }

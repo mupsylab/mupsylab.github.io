@@ -45,15 +45,15 @@ interface MapChartOptions extends BaseChartOptions {
   focusTopValueField?: string
 }
 export class MapChart extends BaseChart {
-  private geoGener: GeoPath<any, GeoPermissibleObjects>
-  private pathMap: Map<string, string | null>
-  private pathComponentMap: Map<string, Path>
-  private labelComponentMap: Map<string, Component>
-  private projection: GeoProjection
+  private geoGener!: GeoPath<any, GeoPermissibleObjects>
+  private pathMap!: Map<string, string | null>
+  private pathComponentMap!: Map<string, Path>
+  private labelComponentMap!: Map<string, Component>
+  private projection!: GeoProjection
   private map: any
-  private graticulePathComp: Path
-  private defaultFill: string | CanvasGradient | CanvasPattern
-  private scale: ScaleLinear<number, number, never>
+  private graticulePathComp!: Path
+  private defaultFill!: string | CanvasGradient | CanvasPattern
+  private scale!: ScaleLinear<number, number, never>
   private readonly mapIdField: string
   private readonly visualMap: (t: number, value: number) => string
   private readonly noDataLabel: string | undefined | null
@@ -61,7 +61,7 @@ export class MapChart extends BaseChart {
   private readonly strokeStyle: string
   private readonly projectionType: 'orthographic' | 'natural' | 'mercator' | 'equirectangular'
   private readonly showGraticule: boolean
-  private readonly graticulePath: string
+  private readonly graticulePath!: string
   private readonly pathShadowBlur: number
   private readonly pathShadowColor: string
   private readonly useShadow: boolean
@@ -162,7 +162,7 @@ export class MapChart extends BaseChart {
     }
   }
 
-  private wrapper: Component
+  private wrapper!: Component
   private async initDefaultFill () {
     const svgStr = '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 0L0 20H10L20 10V0Z" fill="#4444"/><path d="M10 0H0V10L10 0Z" fill="#4444"/></svg>'
     const blob = new Blob([svgStr], { type: 'image/svg+xml' })
@@ -212,7 +212,7 @@ export class MapChart extends BaseChart {
     this.initPathMap(map, geoGener)
   }
 
-  labelFormat = (id: string, meta: any, data: any) => {
+  labelFormat = (id: string, _meta: any, _data: any) => {
     return id
   }
 

@@ -14,7 +14,7 @@ export class ItemChart extends BaseChart {
     await super.setup(stage, ani)
   }
 
-  getComponent (sec: number): Component {
+  getComponent (_sec: number): Component {
     const components = this.data.map((item) => {
       // const id = item[this.idField];
       // const value = item[this.valueField];

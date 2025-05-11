@@ -3,16 +3,16 @@ import { BaseCompOptions, Component } from './Component'
 export interface ImageOptions extends BaseCompOptions {
   slicePosition?: { x: number, y: number }
   sliceShape?: { width: number, height: number }
-  shape?: { width: number, height: number }
+  shape: { width: number, height: number }
   src: string
 }
 
 export class Image extends Component {
   readonly type = 'Image'
-  src: string
+  src!: string
   slicePosition: { x: number, y: number } = { x: 0, y: 0 }
-  sliceShape: { width: number, height: number }
-  shape: { width: number, height: number }
+  sliceShape!: { width: number, height: number }
+  shape!: { width: number, height: number }
   constructor (options?: ImageOptions) {
     super(options ?? { key: 'image' })
     if (options != null) {

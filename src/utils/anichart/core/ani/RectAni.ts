@@ -5,7 +5,7 @@ interface RectOptions {
 }
 export class RectAni extends Ani {
   component: Rect = new Rect()
-  shape: (sec: number) => { width: number, height: number }
+  shape!: (sec: number) => { width: number, height: number }
   constructor (options: RectOptions = {}) {
     super()
     if (options.shape != null) this.shape = options.shape

@@ -15,10 +15,16 @@ export class Arc extends Component {
   anticlockwise: boolean
   constructor (options?: ArcOptions) {
     super(options ?? { key: 'arc' })
-    if (options == null) return
-    this.radius = options.radius ?? 10
-    this.startAngle = options.startAngle ?? 0
-    this.endAngle = options.endAngle ?? 2 * Math.PI
-    this.anticlockwise = options.anticlockwise ?? false
+    const {
+      radius = 10,
+      startAngle = 0,
+      endAngle = 2 * Math.PI,
+      anticlockwise = false
+    } = options ?? {};
+
+    this.radius = radius
+    this.startAngle = startAngle
+    this.endAngle = endAngle
+    this.anticlockwise = anticlockwise
   }
 }

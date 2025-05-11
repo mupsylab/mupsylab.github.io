@@ -28,17 +28,17 @@ export class Component {
   type = 'Component'
   shadow: ShadowOptions = { enable: false }
   center: { x: number, y: number } = { x: 0, y: 0 }
-  position: { x: number, y: number }
+  position!: { x: number, y: number }
   offset: { x: number, y: number } = { x: 0, y: 0 }
-  scale: { x: number, y: number }
+  scale!: { x: number, y: number }
   children: Component[] = []
-  alpha: number
-  filter: string
-  fillStyle: string | CanvasGradient | CanvasPattern
-  strokeStyle: string | CanvasGradient | CanvasPattern
-  lineWidth: number
-  stage: Stage
-  parent: Component | Ani
+  alpha!: number
+  filter!: string
+  fillStyle!: string | CanvasGradient | CanvasPattern
+  strokeStyle!: string | CanvasGradient | CanvasPattern
+  lineWidth!: number
+  stage!: Stage
+  parent!: Component | Ani
   setup (stage: Stage): void {
     this.children.forEach((child: Component) => {
       child.setup(stage)

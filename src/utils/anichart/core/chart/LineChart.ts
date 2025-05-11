@@ -27,7 +27,7 @@ export class LineChart extends BaseChart {
     this.pointerR = options.pointerR ?? 10
   }
 
-  scales: {
+  scales!: {
     x: ScaleLinear<number, number, never>
     y: ScaleLinear<number, number, never>
   }

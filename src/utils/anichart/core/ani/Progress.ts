@@ -16,14 +16,14 @@ export interface ProgressOptions {
 }
 export class Progress extends Ani implements ProgressOptions {
   ani: Ani
-  shape: { width: number, height: number }
+  shape!: { width: number, height: number }
   radius: number = 6
   padding: number = 3
   lineWidth: number = 2
-  aniTime: [number, number]
-  position: { x: number, y: number }
+  aniTime!: [number, number]
+  position!: { x: number, y: number }
   center = { x: 0, y: 0 }
-  color: string
+  color!: string
   constructor (options?: ProgressOptions) {
     super()
     if (options != null) {

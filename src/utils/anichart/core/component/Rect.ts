@@ -6,9 +6,9 @@ export interface RectOptions extends BaseCompOptions {
 }
 export class Rect extends Component {
   readonly type = 'Rect'
-  shape: { width: number, height: number }
-  radius: number
-  clip: boolean
+  shape!: { width: number, height: number }
+  radius!: number
+  clip!: boolean
   constructor (rect?: RectOptions) {
     super(rect ?? { key: 'rect' })
     if (rect != null) {

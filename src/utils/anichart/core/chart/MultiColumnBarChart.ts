@@ -22,7 +22,8 @@ export class MultiColumnBarChart extends BarChart {
   async setup (stage: Stage, parent: Ani) {
     await super.setup(stage, parent)
 
-    this.c.children.forEach((v: BarChart, i) => {
+    this.c.children.forEach((v1, i) => {
+      const v = (v1 as BarChart);
       if (i === this.cols - 1) {
         v.showDateLabel = true
       } else {

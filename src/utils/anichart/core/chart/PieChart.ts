@@ -30,8 +30,8 @@ export class PieChart extends BaseChart implements PieChartOptions {
     strokeStyle: '#1e1e1e',
   }
 
-  dateLabel: Text
-  showDateLabel: boolean
+  dateLabel!: Text
+  showDateLabel!: boolean
   constructor (options: PieChartOptions = {}) {
     super(options)
     if (options) {
@@ -107,9 +107,11 @@ export class PieChart extends BaseChart implements PieChartOptions {
     const minRadio = this.minRadio / 360
     const sumValue = sum(currentData, (d) => d[this.valueField])
     const minValue = sumValue * minRadio
-    const pieGen = pie()
+    const pieGen = pie<{
+      [key: string]: any
+    }>()
       .padAngle((Math.PI / 180) * this.padAngle)
-      .value((d) => max([d[this.valueField], minValue]))
+      .value((d) => max([d[this.valueField], minValue]) ?? 0)
 
     currentData.sort((a, b) => {
       if (Number.isNaN(b[this.valueField])) {

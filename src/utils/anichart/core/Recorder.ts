@@ -19,7 +19,7 @@ export class Recorder {
         }
       }
 
-      mediaRecorder.onstop = (event: any) => {
+      mediaRecorder.onstop = (_: any) => {
         const blob = new Blob(recordedChunks, {
           type: 'video/webm',
         })

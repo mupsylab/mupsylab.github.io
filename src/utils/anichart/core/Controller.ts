@@ -16,7 +16,7 @@ export class Controller {
         'style',
         'border-radius:10px; width:300px; position: absolute; z-index: 9;   background: #ffffff55; -webkit-backdrop-filter: blur(5px); backdrop-filter: blur(5px); border-width: 1px 1px 5px 1px; border-style: solid; border-color: #d3d3d3; text-align: center;',
       )
-    ctrl.datum(this.stage)
+      .datum(this.stage)
     const dragger = ctrl
       .append('div')
       .attr(
@@ -87,7 +87,7 @@ export class Controller {
         elmnt.onmousedown = dragMouseDown
       }
 
-      function dragMouseDown (e) {
+      function dragMouseDown (e: MouseEvent) {
         e = e || window.event
         e.preventDefault()
         // get the mouse cursor position at startup:
@@ -98,7 +98,7 @@ export class Controller {
         document.onmousemove = elementDrag
       }
 
-      function elementDrag (e) {
+      function elementDrag (e: MouseEvent) {
         e = e || window.event
         e.preventDefault()
         // calculate the new cursor position:

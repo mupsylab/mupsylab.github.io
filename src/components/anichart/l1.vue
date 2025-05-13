@@ -5,19 +5,19 @@ import * as ani from "@/utils/anichart";
 import data from "@/assets/data/test.csv?url";
 
 onMounted(() => {
-  const stage = new ani.Stage(document.querySelector("#canvas") as HTMLCanvasElement);
+  const dom = document.querySelector("#canvas") as HTMLCanvasElement;
+  const stage = new ani.Stage(dom);
   stage.options.fps = 30;
-  stage.options.sec = 15;
-  stage.output = true;
+  stage.options.sec = 30;
+  stage.output = false;
 
   const barChart = new ani.BarChart({
-    aniTime: [4, 60],
     dataName: 'data',
     idField: 'id',
-    showXAxis: true,
-    margin: { top: 100, left: 10, right: 10, bottom: 10 },
     valueField: 'value',
     dateField: "date",
+    aniTime: [0, 30],
+    margin: { top: 100, left: 10, right: 10, bottom: 10 },
     barInfoOptions: {
       fontSize: 16
     },
@@ -26,15 +26,43 @@ onMounted(() => {
     }
   })
 
+  const pieChart = new ani.PieChart({
+    dataName: 'data',
+    idField: 'id',
+    valueField: 'value',
+    dateField: "date",
+    position: {
+      x: 330,
+      y: 400
+    },
+    radius: [100, 120],
+    aniTime: [0, 30],
+    labelTextStyle: {
+      key: 'label-text-style',
+      font: 'Sarasa Mono SC',
+      lineWidth: 6,
+      fontSize: 16,
+      fontWeight: 'bolder',
+      strokeStyle: '#1e1e1e',
+    }
+  })
+
   stage.resource.loadCSV(data, "data");
   stage.addChild(barChart);
-  stage.play();
+  stage.addChild(pieChart);
+  stage.play().then(() => {
+    const record = new ani.Recorder();
+    record.record(dom, 3000)
+      .then(r => {
+        console.log(r);
+      });
+  });
 })
 </script>
 
 <template>
   <div class="box">
-    <canvas id="canvas" width="480" height="450"></canvas>
+    <canvas id="canvas" width="480" height="600"></canvas>
   </div>
 </template>
 

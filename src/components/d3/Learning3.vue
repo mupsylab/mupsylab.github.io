@@ -212,7 +212,11 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="box">
-        asd
-    </div>
+    <div class="box"></div>
 </template>
+
+<style lang="css" scoped>
+.box {
+    grid-column: 1 / 13;
+}
+</style>

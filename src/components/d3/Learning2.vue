@@ -202,15 +202,8 @@ function l3() {
     arcs.append("path")
         .attr("fill", (_, i) => color[i])
         .attr("d", d => arc(d as any));
-    arcs.append("text")
-        .attr("transform", d => `translate(${arc.centroid(d as any)[0] * 1.4}, ${arc.centroid(d as any)[1] * 1.4})`)
-        .attr("text-anchor", "middle")
-        .text(function (d) {
-            var percent = Number(d.value) / d3.sum(dataset, d => d[1] as number) * 100
-            return percent.toFixed(1) + "%";
-        });
     arcs.append("line")
-        .attr("stroke", "black")
+        .attr("stroke", "grey")
         .attr("x1", function (d) { return arc.centroid(d as any)[0] * 2; })
         .attr("y1", function (d) { return arc.centroid(d as any)[1] * 2; })
         .attr("x2", function (d) { return arc.centroid(d as any)[0] * 2.2; })
@@ -218,7 +211,16 @@ function l3() {
     arcs.append("text")
         .attr("transform", d => `translate(${arc.centroid(d as any)[0] * 2.5}, ${arc.centroid(d as any)[1] * 2.5})`)
         .attr("text-anchor", "middle")
+        .attr("fill", "grey")
         .text(d => d.data[0]);
+    arcs.append("text")
+        .attr("transform", d => `translate(${arc.centroid(d as any)[0] * 1.4}, ${arc.centroid(d as any)[1] * 1.4})`)
+        .attr("text-anchor", "middle")
+        .attr("fill", "white")
+        .text(function (d) {
+            var percent = Number(d.value) / d3.sum(dataset, d => d[1] as number) * 100
+            return percent.toFixed(1) + "%";
+        });
 }
 function l4() {
     const nodes: Array<{
@@ -308,13 +310,22 @@ function l4() {
     });
 
     const drag = d3.drag<any, any>()
-        .on("drag", function () {
-            console.log(this)
-            d3.select(this).style("fill", "yellow")
+        .on("start", function(event, d) {
+            if (!event.active) force.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
         })
-        .on("end", function (_, i) {
-            d3.select(this).style("fill", color[i as number])
+        .on("drag", function(event, d) {
+            d.fx = event.x;
+            d.fy = event.y;
+            d3.select(this).style("fill", "yellow");
         })
+        .on("end", function(event, d) {
+            if (!event.active) force.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+            d3.select(this).style("fill", color[d.index]);
+        });
     circles.call(drag)
 }
 function l5() {
@@ -453,12 +464,12 @@ function l6() {
 
     function fade(opacify: number) {
         return function (_: any, g: any) {
-            gInner.selectAll(".innerPath")
+            const r = gInner.selectAll(".innerPath")
                 .filter((d: any) => {
                     return d.source.index != g.index && d.target.index != g.index;
-                })
-                .transition()
-                .style("opacity", opacify)
+                });
+            r.transition()
+             .style("opacity", opacify);
         }
     }
     gOuter.selectAll("path")
@@ -895,11 +906,9 @@ function l8() {
 
     const bin = d3.bin();
     const buckets = bin(dataset);
-    console.log(buckets);
-    console.log(dataset);
 
     const x = d3.scaleLinear()
-        .domain([100, 250])
+        .domain([90, 260])
         .range([30, width - 30])
         .clamp(false);
     const y = d3.scaleLinear()
@@ -934,15 +943,56 @@ function l8() {
         .attr("height", d => height - 30 - y(d.length))
         .attr("fill", d => binColor(d.x0 ?? 0));
 }
+function l9() {
+    class Circle {
+        x: number;
+        y: number;
+        r: number;
+        constructor(x: number, y: number) {
+            this.x = x;
+            this.y = y;
+            this.r = 0;
+        }
+    }
+    const circles: Array<Circle> = [];
+    const width = 400, height = 300;
+    const canvas = document.createElement("canvas");
+    canvas.width = width;
+    canvas.height = height;
+    canvas.addEventListener("mousemove", (e) => {
+        const { offsetX: x, offsetY: y } = e;
+        circles.push(new Circle(x, y));
+    });
+    document.querySelector(".box")?.appendChild(canvas);
+
+    function draw() {
+        const ctx = canvas.getContext("2d");
+        if (ctx === null) return;
+        ctx.clearRect(0, 0, width, height);
+        circles.forEach((circle, i) => {
+            circle.r += 0.5;
+            if (circle.r > 100) {
+                circles.splice(i, 1);
+            }
+            ctx.beginPath();
+            ctx.arc(circle.x, circle.y, circle.r, 0, Math.PI * 2);
+            ctx.strokeStyle = "grey";
+            ctx.stroke();
+        });
+        window.requestAnimationFrame(draw);
+    }
+    window.requestAnimationFrame(draw);
+}
 onMounted(() => {
+    l9();
     l8();
     l7();
     l6();
     l5();
     l4();
-    l1();
-    l2();
     l3();
+    l2();
+    l1();
 });
 </script>
 

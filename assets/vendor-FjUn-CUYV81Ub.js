@@ -1,0 +1,1 @@
+import{_ as t}from"./vendor-pM4a-CqGSI99y.js";import{d as o,r}from"./vendor-RE7Z-DOm9JKld.js";const n=o({name:"ElCollectionItem",inheritAttrs:!1});function s(e,i,a,l,c,f){return r(e.$slots,"default")}var p=t(n,[["render",s],["__file","collection-item.vue"]]);export{p as C};

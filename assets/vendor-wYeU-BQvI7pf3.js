@@ -1,0 +1,1 @@
+import{n as c}from"./vendor-SNPD-B0kxqnlQ.js";function p(s){var r=s+="",i=r.indexOf(":");return i>=0&&(r=s.slice(0,i))!=="xmlns"&&(s=s.slice(i+1)),c.hasOwnProperty(r)?{space:c[r],local:s}:s}export{p as n};

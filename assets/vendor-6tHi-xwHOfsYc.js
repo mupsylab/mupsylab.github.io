@@ -1,0 +1,1 @@
+import{T as c,n as v}from"./vendor-VU0V-CahdVGVn.js";function T(o,n,u){var r=new c,f=n;return n==null?(r.restart(o,n,u),r):(r._restart=r.restart,r.restart=function(i,s,t){s=+s,t=t==null?v():+t,r._restart(function _(a){a+=f,r._restart(_,f+=s,t),i(a)},s,t)},r.restart(o,n,u),r)}export{T as i};

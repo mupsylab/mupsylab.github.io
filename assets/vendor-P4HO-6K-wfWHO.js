@@ -1,0 +1,1 @@
+import{T as v}from"./vendor-Nc1y-DVdpv-Zr.js";function A(h){if(h._id!==this._id)throw new Error;for(var n=this._groups,e=h._groups,i=n.length,s=e.length,w=Math.min(i,s),a=new Array(i),r=0;r<w;++r)for(var _=n[r],l=e[r],f=_.length,d=a[r]=new Array(f),o,t=0;t<f;++t)(o=_[t]||l[t])&&(d[t]=o);for(;r<i;++r)a[r]=n[r];return new v(a,this._parents,this._name,this._id)}export{A as t};

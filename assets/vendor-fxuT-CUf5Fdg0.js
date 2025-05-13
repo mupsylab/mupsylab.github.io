@@ -1,0 +1,1 @@
+import{g as o,s as i}from"./vendor-2LuU-DX86OOUr.js";function r(n,t){return function(){i(this,n).duration=+t.apply(this,arguments)}}function s(n,t){return t=+t,function(){i(this,n).duration=t}}function a(n){var t=this._id;return arguments.length?this.each((typeof n=="function"?r:s)(t,n)):o(this.node(),t).duration}export{a as t};

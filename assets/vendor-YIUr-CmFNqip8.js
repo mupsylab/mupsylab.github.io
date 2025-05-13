@@ -1,0 +1,1 @@
+import{b as o}from"./vendor-BvSU-CYRVtLwv.js";import{i as t}from"./vendor-9yxy-Cbwm2u4R.js";const a=o({disabled:Boolean,currentPage:{type:Number,default:1},prevText:{type:String},prevIcon:{type:t}}),i={click:e=>e instanceof MouseEvent};export{a,i as p};

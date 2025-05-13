@@ -1,0 +1,1 @@
+import{b as e,d as o}from"./vendor-BvSU-CYRVtLwv.js";import{b as r,i as t}from"./vendor-7avT-DhdrFwTb.js";import{I as i,U as p}from"./vendor-lLeK-BB_Ol6Sd.js";const d=a=>t(a)&&a.length===2&&a.every(s=>r(s)),E=e({modelValue:{type:Date},range:{type:o(Array),validator:d}}),c={[p]:a=>r(a),[i]:a=>r(a)};export{E as a,c};

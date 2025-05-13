@@ -1,0 +1,1 @@
+import{b as t,d as e}from"./vendor-BvSU-CYRVtLwv.js";const o=t({disabledHours:{type:e(Function)},disabledMinutes:{type:e(Function)},disabledSeconds:{type:e(Function)}}),s=t({visible:Boolean,actualVisible:{type:Boolean,default:void 0},format:{type:String,default:""}});export{o as d,s as t};

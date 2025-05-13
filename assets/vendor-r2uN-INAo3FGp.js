@@ -1,0 +1,1 @@
+import{_ as o}from"./vendor-pM4a-CqGSI99y.js";import{d as r,r as t}from"./vendor-RE7Z-DOm9JKld.js";const n=r({inheritAttrs:!1});function s(e,a,i,c,f,_){return t(e.$slots,"default")}var d=o(n,[["render",s],["__file","collection.vue"]]);export{d as C};

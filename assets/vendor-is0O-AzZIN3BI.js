@@ -1,0 +1,1 @@
+import{d as r}from"./vendor-ez6r-CcuaHt6D.js";var i=r.exports,o;function p(){return o?r.exports:(o=1,function(f,s){(function(u,t){f.exports=t()})(i,function(){return function(u,t,a){t.prototype.dayOfYear=function(e){var n=Math.round((a(this).startOf("day")-a(this).startOf("year"))/864e5)+1;return e==null?n:this.add(e-n,"day")}}})}(r),r.exports)}export{p as r};

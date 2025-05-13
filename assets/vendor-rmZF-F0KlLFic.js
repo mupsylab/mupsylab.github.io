@@ -1,0 +1,1 @@
+import{d as r}from"./vendor-hixS-DPj_QzsP.js";import{b as o,d as e}from"./vendor-BvSU-CYRVtLwv.js";const s=o({role:{type:String,required:!0},spinnerDate:{type:e(Object),required:!0},showSeconds:{type:Boolean,default:!0},arrowControl:Boolean,amPmMode:{type:e(String),default:""},...r});export{s as b};

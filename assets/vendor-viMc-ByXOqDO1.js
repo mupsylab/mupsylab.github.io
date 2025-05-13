@@ -1,0 +1,1 @@
+import{c as r}from"./vendor-RE7Z-DOm9JKld.js";function i(n,p){const u=r(()=>{let e=n.parent;const t=[p.value];for(;e.type.name!=="ElMenu";)e.props.index&&t.unshift(e.props.index),e=e.parent;return t});return{parentMenu:r(()=>{let e=n.parent;for(;e&&!["ElMenu","ElSubMenu"].includes(e.type.name);)e=e.parent;return e}),indexPath:u}}export{i as u};

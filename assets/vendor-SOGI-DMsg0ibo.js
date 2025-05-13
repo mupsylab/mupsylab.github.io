@@ -1,0 +1,1 @@
+import{i as a}from"./vendor-PDBE-CFupWbJa.js";import{i as t}from"./vendor-Ywm4-DTTLV4Bm.js";import{i as n}from"./vendor-1GmQ-aXSHWviX.js";import{c as i}from"./vendor-Duhy-Bbm1kQcn.js";function c(e,r){var o;return(typeof r=="number"?a:r instanceof i?t:(o=i(r))?(r=o,t):n)(e,r)}export{c as i};

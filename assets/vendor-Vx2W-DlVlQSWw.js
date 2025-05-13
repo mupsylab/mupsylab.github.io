@@ -1,0 +1,1 @@
+import{E as s}from"./vendor-AQSj-DFJim-ok.js";import{G as l,H as a}from"./vendor-Fq1d-qefZ2EtI.js";import{S as e}from"./vendor-4ELM-B6Z_mWXb.js";import{z as r}from"./vendor-RE7Z-DOm9JKld.js";const n=o=>{const{sortOrder:t}=o;return r(s,{size:14,class:o.class},{default:()=>[t===e.ASC?r(l,null,null):r(a,null,null)]})};var f=n;export{f as S};

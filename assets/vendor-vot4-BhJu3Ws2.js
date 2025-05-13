@@ -1,0 +1,1 @@
+import{b as e}from"./vendor-BvSU-CYRVtLwv.js";import{i as t}from"./vendor-9yxy-Cbwm2u4R.js";const r=e({disabled:Boolean,currentPage:{type:Number,default:1},pageCount:{type:Number,default:50},nextText:{type:String},nextIcon:{type:t}});export{r as p};

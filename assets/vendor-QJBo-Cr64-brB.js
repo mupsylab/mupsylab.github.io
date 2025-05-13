@@ -1,0 +1,1 @@
+import{D as t}from"./vendor-Fq1d-qefZ2EtI.js";import{b as e}from"./vendor-BvSU-CYRVtLwv.js";import{i as a}from"./vendor-9yxy-Cbwm2u4R.js";const i=e({icon:{type:a,default:()=>t},title:String,content:{type:String,default:""}}),s={back:()=>!0};export{i as a,s as p};

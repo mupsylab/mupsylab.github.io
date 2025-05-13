@@ -1,0 +1,1 @@
+import{w as e}from"./vendor-om0e-BSyaQieD.js";var s=e.exports,i;function c(){return i?e.exports:(i=1,function(a,p){(function(u,r){a.exports=r()})(s,function(){return function(u,r){r.prototype.weekYear=function(){var n=this.month(),o=this.week(),t=this.year();return o===1&&n===11?t+1:n===0&&o>=52?t-1:t}}})}(e),e.exports)}export{c as r};

@@ -1,0 +1,1 @@
+import{S as n,E as u,a as c}from"./vendor-2LuU-DX86OOUr.js";function _(e,i){var r=e.__transition,t,s,l=!0,a;if(r){i=i==null?null:i+"";for(a in r){if((t=r[a]).name!==i){l=!1;continue}s=t.state>n&&t.state<u,t.state=c,t.timer.stop(),t.on.call(s?"interrupt":"cancel",e,e.__data__,t.index,t.group),delete r[a]}l&&delete e.__transition}}export{_ as i};

@@ -1,0 +1,1 @@
+import{i as c}from"./vendor-GqJB-eUdOsDaD.js";function u(e,n){var t=n?n.length:0,o=e?Math.min(t,e.length):0,a=new Array(o),i=new Array(t),r;for(r=0;r<o;++r)a[r]=c(e[r],n[r]);for(;r<t;++r)i[r]=n[r];return function(f){for(r=0;r<o;++r)i[r]=a[r](f);return i}}export{u as g};

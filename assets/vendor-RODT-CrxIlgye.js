@@ -1,0 +1,1 @@
+const t="$treeNodeId",a=function(n,e){!e||e[t]||Object.defineProperty(e,t,{value:n.id,enumerable:!1,configurable:!1,writable:!1})},c=(n,e)=>e==null?void 0:e[n||t],l=(n,e,o)=>{const u=n.value.currentNode;o();const r=n.value.currentNode;u!==r&&e("current-change",r?r.data:null,r)};export{t as N,c as g,l as h,a as m};

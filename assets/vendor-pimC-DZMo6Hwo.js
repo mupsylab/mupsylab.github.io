@@ -1,0 +1,1 @@
+const o={ArrowLeft:"prev",ArrowUp:"prev",ArrowRight:"next",ArrowDown:"next",PageUp:"first",Home:"first",PageDown:"last",End:"last"},s=(e,t)=>e,c=(e,t,r)=>{const n=s(e.code);return o[n]},i=(e,t)=>e.map((r,n)=>e[(n+t)%e.length]),f=e=>{const{activeElement:t}=document;for(const r of e)if(r===t||(r.focus(),t!==document.activeElement))return};export{f,c as g,i as r};

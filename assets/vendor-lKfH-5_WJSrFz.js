@@ -1,0 +1,1 @@
+import{a as o}from"./vendor-BvSU-CYRVtLwv.js";import{c as r}from"./vendor-df1y-BmYZHWVL.js";import{l as s,c as t}from"./vendor-RE7Z-DOm9JKld.js";import{u as i}from"./vendor-eqDO-Ti6p_k8X.js";const p=o({type:String,values:r,required:!1}),a=Symbol("size"),S=()=>{const e=s(a,{});return t(()=>i(e.size)||"")};export{a as S,S as a,p as u};

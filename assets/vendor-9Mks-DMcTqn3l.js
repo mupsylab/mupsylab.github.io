@@ -1,0 +1,1 @@
+function o(e){return e.replace(/([A-Z])/g,"-$1").toLowerCase()}function i(e){return Object.keys(e).map(r=>`${o(r)}: ${e[r]};`).join(" ")}function n(){return window.devicePixelRatio||1}const s=(e,r)=>{let t=!1;return e.removedNodes.length&&r&&(t=Array.from(e.removedNodes).includes(r)),e.type==="attributes"&&e.target===r&&(t=!0),t};export{i as a,n as g,s as r};

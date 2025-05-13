@@ -1,0 +1,1 @@
+import{N as n}from"./vendor-7avT-DhdrFwTb.js";const g=r=>{if(!r)return{onClick:n,onMousedown:n,onMouseup:n};let e=!1,t=!1;return{onClick:o=>{e&&t&&r(o),e=t=!1},onMousedown:o=>{e=o.target===o.currentTarget},onMouseup:o=>{t=o.target===o.currentTarget}}};export{g as u};

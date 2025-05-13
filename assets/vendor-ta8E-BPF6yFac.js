@@ -1,0 +1,1 @@
+var i=180/Math.PI,f={translateX:0,translateY:0,rotate:0,skewX:0,scaleX:1,scaleY:1};function h(t,e,s,r,X,o){var l,n,a;return(l=Math.sqrt(t*t+e*e))&&(t/=l,e/=l),(a=t*s+e*r)&&(s-=t*a,r-=e*a),(n=Math.sqrt(s*s+r*r))&&(s/=n,r/=n,a/=n),t*r<e*s&&(t=-t,e=-e,a=-a,l=-l),{translateX:X,translateY:o,rotate:Math.atan2(e,t)*i,skewX:Math.atan(a)*i,scaleX:l,scaleY:n}}export{h as d,f as i};

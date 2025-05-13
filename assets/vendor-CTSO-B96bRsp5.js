@@ -1,0 +1,1 @@
+import{v as i}from"./vendor-g5E6-Cqj1Tpwo.js";import{I as t}from"./vendor-yKge-DtO0mAMe.js";import{p as l}from"./vendor-sC5d-B-dxDEiz.js";const u=(e=[])=>({version:i,install:(r,o)=>{r[t]||(r[t]=!0,e.forEach(s=>r.use(s)),o&&l(o,r,!0))}});export{u as m};

@@ -1,0 +1,1 @@
+import{b as t}from"./vendor-BvSU-CYRVtLwv.js";import{c as e}from"./vendor-df1y-BmYZHWVL.js";const n=t({type:{type:String,values:["primary","success","info","warning","danger",""],default:""},size:{type:String,values:e,default:""},truncated:Boolean,lineClamp:{type:[String,Number]},tag:{type:String,default:"span"}});export{n as t};

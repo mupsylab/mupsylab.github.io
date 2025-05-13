@@ -1,0 +1,1 @@
+import{i as o}from"./vendor-8ia3-Dxzbedgu.js";import{i as s}from"./vendor-uHPk-CYVn5nC5.js";var e=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,n=/^\w*$/;function m(r,i){if(o(r))return!1;var t=typeof r;return t=="number"||t=="symbol"||t=="boolean"||r==null||s(r)?!0:n.test(r)||!e.test(r)||i!=null&&r in Object(i)}export{m as i};

@@ -1,0 +1,1 @@
+import{f as a}from"./vendor-7VgF-BHTL-FIa.js";function f(t,o){var n=a(t,o);if(!n)return t+"";var r=n[0],e=n[1];return e<0?"0."+new Array(-e).join("0")+r:r.length>e+1?r.slice(0,e+1)+"."+r.slice(e+1):r+new Array(e-r.length+2).join("0")}export{f};

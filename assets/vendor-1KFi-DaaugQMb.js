@@ -1,0 +1,1 @@
+import{s as i}from"./vendor-2LuU-DX86OOUr.js";function e(t,n){return function(){var r=n.apply(this,arguments);if(typeof r!="function")throw new Error;i(this,t).ease=r}}function s(t){if(typeof t!="function")throw new Error;return this.each(e(this._id,t))}export{s as t};

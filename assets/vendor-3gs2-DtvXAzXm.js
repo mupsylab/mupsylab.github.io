@@ -1,0 +1,1 @@
+import{c as r}from"./vendor-5upC-cTySAkNr.js";import{b as t,d as e}from"./vendor-BvSU-CYRVtLwv.js";const p=t({class:String,columns:r,columnsStyles:{type:e(Object),required:!0},headerIndex:Number,style:{type:e(Object)}});export{p as t};

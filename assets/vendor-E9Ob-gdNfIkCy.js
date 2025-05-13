@@ -1,0 +1,1 @@
+import{r as d,z as i}from"./vendor-RE7Z-DOm9JKld.js";const l=(e,{slots:r})=>d(r,"default",e,()=>{var a,t;return[i("div",{class:e.class,title:(a=e.column)==null?void 0:a.title},[(t=e.column)==null?void 0:t.title])]});l.displayName="ElTableV2HeaderCell";l.inheritAttrs=!1;var s=l;export{s as H};

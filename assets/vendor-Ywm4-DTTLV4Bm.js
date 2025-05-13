@@ -1,0 +1,1 @@
+import{g as y,n as e}from"./vendor-32n1-B6t2oD79.js";import{r as a}from"./vendor-Duhy-Bbm1kQcn.js";const x=function c(n){var m=y(n);function i(o,r){var b=m((o=a(o)).r,(r=a(r)).r),p=m(o.g,r.g),u=m(o.b,r.b),f=e(o.opacity,r.opacity);return function(g){return o.r=b(g),o.g=p(g),o.b=u(g),o.opacity=f(g),o+""}}return i.gamma=c,i}(1);export{x as i};

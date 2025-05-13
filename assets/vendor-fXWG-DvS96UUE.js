@@ -1,0 +1,1 @@
+import{b as e,d as t}from"./vendor-BvSU-CYRVtLwv.js";const o=e({zIndex:{type:Number,default:1001},visible:Boolean,fill:{type:String,default:"rgba(0,0,0,0.5)"},pos:{type:t(Object)},targetAreaClickable:{type:Boolean,default:!0}});export{o as m};

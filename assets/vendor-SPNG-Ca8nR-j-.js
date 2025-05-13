@@ -1,0 +1,1 @@
+import{S as e}from"./vendor-Ar89-0u1S7_th.js";var o=Object.prototype,c=o.hasOwnProperty,s=o.toString,r=e?e.toStringTag:void 0;function y(t){var a=c.call(t,r),n=t[r];try{t[r]=void 0;var i=!0}catch{}var g=s.call(t);return i&&(a?t[r]=n:delete t[r]),g}export{y as g};

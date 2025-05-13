@@ -1,0 +1,1 @@
+import{D as t}from"./vendor-wHEu-Cxg009Xo.js";import{D as s}from"./vendor-ZqeB-CtCuwfas.js";import{w as o,b as i}from"./vendor-xSPj-B5x2hH2b.js";const e=o(t,{DescriptionsItem:s}),m=i(s);export{e as E,m as a};

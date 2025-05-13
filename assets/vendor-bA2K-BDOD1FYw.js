@@ -1,0 +1,1 @@
+import{E as s}from"./vendor-ws7m-JeEEAaZg.js";import{r as o,z as l}from"./vendor-RE7Z-DOm9JKld.js";const e=(t,{slots:a})=>{const r=o(a,"default",{},()=>[l(s,null,null)]);return l("div",{class:t.class,style:t.style},[r])};e.displayName="ElTableV2Empty";var d=e;export{d as E};

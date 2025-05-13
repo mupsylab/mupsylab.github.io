@@ -1,0 +1,1 @@
+import{i as f}from"./vendor-GqJB-eUdOsDaD.js";function l(e,t){var i={},n={},o;(e===null||typeof e!="object")&&(e={}),(t===null||typeof t!="object")&&(t={});for(o in t)o in e?i[o]=f(e[o],t[o]):n[o]=t[o];return function(r){for(o in i)n[o]=i[o](r);return n}}export{l as o};

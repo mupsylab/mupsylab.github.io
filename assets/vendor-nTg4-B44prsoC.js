@@ -1,0 +1,1 @@
+import{T as h}from"./vendor-Nc1y-DVdpv-Zr.js";import{m as l}from"./vendor-cYox-CgyKmiwk.js";function v(t){typeof t!="function"&&(t=l(t));for(var f=this._groups,s=f.length,_=new Array(s),r=0;r<s;++r)for(var a=f[r],e=a.length,o=_[r]=[],i,n=0;n<e;++n)(i=a[n])&&t.call(i,i.__data__,n,a)&&o.push(i);return new h(_,this._parents,this._name,this._id)}export{v as t};

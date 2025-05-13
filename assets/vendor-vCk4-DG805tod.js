@@ -1,0 +1,1 @@
+import{i as a}from"./vendor-CEmB-C3e4t58V.js";var r=Object.create,u=function(){function e(){}return function(t){if(!a(t))return{};if(r)return r(t);e.prototype=t;var n=new e;return e.prototype=void 0,n}}();export{u as b};

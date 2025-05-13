@@ -1,0 +1,1 @@
+import{c as e}from"./vendor-cYox-CgyKmiwk.js";var n=Array.prototype.filter;function t(){return Array.from(this.children)}function i(r){return function(){return n.call(this.children,r)}}function c(r){return this.selectAll(r==null?t:i(typeof r=="function"?r:e(r)))}export{c as s};

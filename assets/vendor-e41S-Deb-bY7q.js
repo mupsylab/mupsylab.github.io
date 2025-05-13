@@ -1,0 +1,1 @@
+import{u as r}from"./vendor-unoq-CFxLHdLI.js";import{d as i,n as s,r as t,p as a}from"./vendor-RE7Z-DOm9JKld.js";const p=i({name:"ElTimeline",setup(m,{slots:e}){const n=r("timeline");return a("timeline",e),()=>s("ul",{class:[n.b()]},[t(e,"default")])}});export{p as T};

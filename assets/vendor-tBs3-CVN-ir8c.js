@@ -1,0 +1,1 @@
+import{b as t}from"./vendor-BvSU-CYRVtLwv.js";import{i as s}from"./vendor-9yxy-Cbwm2u4R.js";const i=t({title:{type:String,default:""},icon:{type:s},description:{type:String,default:""},status:{type:String,values:["","wait","process","finish","error","success"],default:""}});export{i as s};

@@ -1,0 +1,1 @@
+function c(a){e:for(var t=a.length,e=1,r=-1,f;e<t;++e)switch(a[e]){case".":r=f=e;break;case"0":r===0&&(r=e),f=e;break;default:if(!+a[e])break e;r>0&&(r=0);break}return r>0?a.slice(0,r)+a.slice(f+1):a}export{c as f};

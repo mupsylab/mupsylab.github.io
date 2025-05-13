@@ -1,0 +1,1 @@
+import{s as o}from"./vendor-8r36-D_HHjoNF.js";import{g as n}from"./vendor-sXNC-Da9ghdLI.js";const g=e=>Object.keys(e),f=e=>Object.entries(e),i=(e,t,s)=>({get value(){return n(e,t,s)},set value(r){o(e,t,r)}});export{f as e,i as g,g as k};

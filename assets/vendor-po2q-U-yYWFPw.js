@@ -1,0 +1,1 @@
+import{d as t,a as e}from"./vendor-lK65-Bg-fIkv-.js";import{b as r}from"./vendor-BvSU-CYRVtLwv.js";const d=r({...e,direction:{type:String,default:"rtl",values:["ltr","rtl","ttb","btt"]},size:{type:[String,Number],default:"30%"},withHeader:{type:Boolean,default:!0},modalFade:{type:Boolean,default:!0},headerAriaLevel:{type:String,default:"2"}}),l=t;export{d as a,l as d};

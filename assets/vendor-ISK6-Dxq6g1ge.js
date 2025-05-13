@@ -1,0 +1,1 @@
+import{b as o}from"./vendor-zbA5-Cs1mEP56.js";import{i as r}from"./vendor-CEmB-C3e4t58V.js";var a="[object AsyncFunction]",c="[object Function]",e="[object GeneratorFunction]",i="[object Proxy]";function g(n){if(!r(n))return!1;var t=o(n);return t==c||t==e||t==a||t==i}export{g as i};

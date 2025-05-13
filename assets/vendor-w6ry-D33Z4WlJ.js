@@ -1,0 +1,1 @@
+import{l as a,p as t}from"./vendor-RE7Z-DOm9JKld.js";function i(e){const n=a("TreeNodeMap",null),d={treeNodeExpand:o=>{e.node!==o&&e.node.collapse()},children:[]};return n&&n.children.push(d),t("TreeNodeMap",d),{broadcastExpanded:o=>{if(e.accordion)for(const r of d.children)r.treeNodeExpand(o)}}}export{i as u};

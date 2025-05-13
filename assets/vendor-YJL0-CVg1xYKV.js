@@ -1,0 +1,1 @@
+import{c as n}from"./vendor-RE7Z-DOm9JKld.js";import{T as t}from"./vendor-gqm8-CfUw9abs.js";function c(r){return n(()=>{const o=r.backgroundColor;return o?new t(o).shade(20).toString():""})}export{c as u};

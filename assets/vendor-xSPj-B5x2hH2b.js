@@ -1,0 +1,1 @@
+import{N as n}from"./vendor-7avT-DhdrFwTb.js";const e=(t,o)=>{if(t.install=s=>{for(const l of[t,...Object.values(o??{})])s.component(l.name,l)},o)for(const[s,l]of Object.entries(o))t[s]=l;return t},r=(t,o)=>(t.install=s=>{t._context=s._context,s.config.globalProperties[o]=t},t),i=(t,o)=>(t.install=s=>{s.directive(o,t)},t),a=t=>(t.install=n,t);export{r as a,a as b,i as c,e as w};

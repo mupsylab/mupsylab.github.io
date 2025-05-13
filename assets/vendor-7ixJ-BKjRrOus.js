@@ -1,0 +1,1 @@
+import{i as e}from"./vendor-UUu6-BeUS1t8s.js";import{r as n}from"./vendor-eqDO-Ti6p_k8X.js";const S=()=>{const s=n(),t=(o,r)=>{const l=s.value;l&&l.scrollTo(o,r)},c=(o,r)=>{const l=s.value;l&&e(r)&&["Top","Left"].includes(o)&&l[`setScroll${o}`](r)};return{scrollBarRef:s,scrollTo:t,setScrollTop:o=>c("Top",o),setScrollLeft:o=>c("Left",o)}};export{S as u};

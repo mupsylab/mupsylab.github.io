@@ -1,0 +1,1 @@
+function n(t,s,l){var e=this.enter(),i=this,f=this.exit();return typeof t=="function"?(e=t(e),e&&(e=e.selection())):e=e.append(t+""),s!=null&&(i=s(i),i&&(i=i.selection())),l==null?f.remove():l(f),e&&i?e.merge(i).order():i}export{n as s};

@@ -1,0 +1,1 @@
+import{c as t}from"./vendor-5upC-cTySAkNr.js";import{b as a,d as e}from"./vendor-BvSU-CYRVtLwv.js";const r={type:Number,required:!0},o=a({class:String,columns:t,fixedHeaderData:{type:e(Array)},headerData:{type:e(Array),required:!0},headerHeight:{type:e([Number,Array]),default:50},rowWidth:r,rowHeight:{type:Number,default:50},height:r,width:r});export{o as t};

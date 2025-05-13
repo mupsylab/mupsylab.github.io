@@ -1,0 +1,1 @@
+import{m as s}from"./vendor-o4rl-D4nNP7s9.js";var c=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g,m=/\\(\\)?/g,h=s(function(e){var r=[];return e.charCodeAt(0)===46&&r.push(""),e.replace(c,function(a,p,o,t){r.push(o?t.replace(m,"$1"):p||a)}),r});export{h as s};

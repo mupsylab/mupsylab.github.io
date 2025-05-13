@@ -1,0 +1,1 @@
+const s="focus-trap.focus-after-trapped",e="focus-trap.focus-after-released",a="focus-trap.focusout-prevented",c={cancelable:!0,bubbles:!1},t={cancelable:!0,bubbles:!1},E="focusAfterTrapped",o="focusAfterReleased",_=Symbol("elFocusTrap");export{s as F,E as O,o as a,c as b,e as c,_ as d,a as e,t as f};

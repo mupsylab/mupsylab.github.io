@@ -1,0 +1,1 @@
+import{b}from"./vendor-TPys-gMTuvAQP.js";import{i as f}from"./vendor-s3c4-BxiC9vcm.js";function u(r,s){var e=-1,a=f(r)?Array(r.length):[];return b(r,function(i,t,n){a[++e]=s(i,t,n)}),a}export{u as b};

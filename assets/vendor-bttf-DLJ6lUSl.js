@@ -1,0 +1,1 @@
+import{t as u}from"./vendor-k87t-DYFOtHqs.js";function s(){let t;const o=(i,n)=>{e(),t=window.setTimeout(i,n)},e=()=>window.clearTimeout(t);return u(()=>e()),{registerTimeout:o,cancelTimeout:e}}export{s as u};

@@ -1,0 +1,1 @@
+import{b as n}from"./vendor-mOcj-DDytVM1k.js";import{e as i}from"./vendor-dLgf-DPGIUuQ3.js";var t=Object.prototype,p=t.hasOwnProperty;function m(r,a,o){var s=r[a];(!(p.call(r,a)&&i(s,o))||o===void 0&&!(a in r))&&n(r,a,o)}export{m as a};

@@ -1,0 +1,1 @@
+import{a as o}from"./vendor-G6qf-DJA95pb9.js";import{b as t,d as e}from"./vendor-BvSU-CYRVtLwv.js";const i=t({width:{type:Number,default:10},height:{type:Number,default:10},style:{type:e(Object),default:null}}),s=t({side:{type:e(String),values:o,required:!0}});export{s as a,i as t};

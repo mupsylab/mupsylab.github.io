@@ -1,0 +1,1 @@
+const t=["hours","minutes","seconds"],e="HH:mm:ss",Y="YYYY-MM-DD",s={date:Y,dates:Y,week:"gggg[w]ww",year:"YYYY",years:"YYYY",month:"YYYY-MM",months:"YYYY-MM",datetime:`${Y} ${e}`,monthrange:"YYYY-MM",yearrange:"YYYY",daterange:Y,datetimerange:`${Y} ${e}`};export{e as D,s as a,Y as b,t};

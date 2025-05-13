@@ -1,0 +1,1 @@
+import{b as o}from"./vendor-vCk4-DG805tod.js";import{g as r}from"./vendor-KLNH-SJr4jFYb.js";import{i}from"./vendor-K5q2-DqVbKOHK.js";function s(t){return typeof t.constructor=="function"&&!i(t)?o(r(t)):{}}export{s as i};

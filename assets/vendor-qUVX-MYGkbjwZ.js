@@ -1,0 +1,1 @@
+import{b as t}from"./vendor-BvSU-CYRVtLwv.js";const e=["start","center","end","space-around","space-between","space-evenly"],r=["top","middle","bottom"],a=t({tag:{type:String,default:"div"},gutter:{type:Number,default:0},justify:{type:String,values:e,default:"start"},align:{type:String,values:r}});export{a as r};

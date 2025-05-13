@@ -1,0 +1,1 @@
+var a=(s=>(s.ASC="asc",s.DESC="desc",s))(a||{}),r=(s=>(s.CENTER="center",s.RIGHT="right",s))(r||{}),e=(s=>(s.LEFT="left",s.RIGHT="right",s))(e||{});const c={asc:"desc",desc:"asc"};export{r as A,e as F,a as S,c as o};

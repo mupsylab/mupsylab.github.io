@@ -1,0 +1,1 @@
+import{b as e,d as t}from"./vendor-BvSU-CYRVtLwv.js";const a=e({header:{type:String,default:""},footer:{type:String,default:""},bodyStyle:{type:t([String,Object,Array]),default:""},bodyClass:String,shadow:{type:String,values:["always","hover","never"],default:"always"}});export{a as c};

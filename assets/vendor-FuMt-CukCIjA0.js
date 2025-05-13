@@ -1,0 +1,1 @@
+import{b as e,d as p}from"./vendor-BvSU-CYRVtLwv.js";import{m as o}from"./vendor-FQCA-Bp3YSIOJ.js";import{c as r}from"./vendor-df1y-BmYZHWVL.js";const s=e({pageSize:{type:Number,required:!0},pageSizes:{type:p(Array),default:()=>o([10,20,30,40,50,100])},popperClass:{type:String},disabled:Boolean,teleported:Boolean,size:{type:String,values:r},appendSizeTo:String});export{s as p};

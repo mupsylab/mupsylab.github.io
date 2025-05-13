@@ -1,0 +1,1 @@
+import{Y as i}from"./vendor-fHMf-BQoi3Ox2.js";const r=function(e,o){if(e&&e.addEventListener){const n=function(t){const s=i(t);o&&Reflect.apply(o,this,[t,s])};e.addEventListener("wheel",n,{passive:!0})}},u={beforeMount(e,o){r(e,o.value)}};export{u as M};

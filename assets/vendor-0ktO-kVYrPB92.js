@@ -1,0 +1,1 @@
+function p(t){for(var o=this,e=s(o,t),r=[o];o!==e;)o=o.parent,r.push(o);for(var n=r.length;t!==e;)r.splice(n,0,t),t=t.parent;return r}function s(t,o){if(t===o)return t;var e=t.ancestors(),r=o.ancestors(),n=null;for(t=e.pop(),o=r.pop();t===o;)n=t,t=e.pop(),o=r.pop();return n}export{p as n};

@@ -1,0 +1,1 @@
+import{b as e,d as t}from"./vendor-BvSU-CYRVtLwv.js";const a=e({animated:{type:Boolean,default:!1},count:{type:Number,default:1},rows:{type:Number,default:3},loading:{type:Boolean,default:!0},throttle:{type:t([Number,Object])}});export{a as s};

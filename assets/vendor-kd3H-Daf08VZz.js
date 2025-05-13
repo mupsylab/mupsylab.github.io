@@ -1,0 +1,1 @@
+import{S as r}from"./vendor-oTRF-BmWqFBVy.js";import{n as t}from"./vendor-j5oc-DX6rZLP_.js";import{s as e}from"./vendor-00cs-CSiN_fit.js";var a=1/0,p=r&&1/e(new r([,-0]))[1]==a?function(o){return new r(o)}:t;export{p as c};

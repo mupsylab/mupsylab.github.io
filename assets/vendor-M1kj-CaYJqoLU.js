@@ -1,0 +1,1 @@
+import{b as a}from"./vendor-BvSU-CYRVtLwv.js";import{u as o}from"./vendor-unoq-CFxLHdLI.js";import{d as r,c as m,n as c,r as n}from"./vendor-RE7Z-DOm9JKld.js";const i=a({prefixCls:{type:String}}),f=r({name:"ElSpaceItem",props:i,setup(e,{slots:s}){const t=o("space"),p=m(()=>`${e.prefixCls||t.b()}__item`);return()=>c("div",{class:p.value},n(s,"default"))}});export{f as S};

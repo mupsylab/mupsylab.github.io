@@ -1,0 +1,1 @@
+import{t as e}from"./vendor-NOnL-tspUAeol.js";function i(t){return function(){this.textContent=t}}function o(t){return function(){var n=t(this);this.textContent=n??""}}function u(t){return this.tween("text",typeof t=="function"?o(e(this,"text",t)):i(t==null?"":t+""))}export{u as t};

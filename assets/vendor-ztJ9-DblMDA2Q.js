@@ -1,0 +1,1 @@
+import{S as o}from"./vendor-UiHw-DYBkOt2p.js";import{m as c}from"./vendor-cYox-CgyKmiwk.js";function m(t){typeof t!="function"&&(t=c(t));for(var a=this._groups,i=a.length,l=new Array(i),r=0;r<i;++r)for(var n=a[r],s=n.length,_=l[r]=[],e,f=0;f<s;++f)(e=n[f])&&t.call(e,e.__data__,f,n)&&_.push(e);return new o(l,this._parents)}export{m as s};

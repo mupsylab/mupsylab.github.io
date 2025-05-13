@@ -1,0 +1,1 @@
+import{t as o}from"./vendor-fq7s-5Xu4kz8q.js";import{c as s}from"./vendor-B5O1-C52nzW79.js";function u(e){return function(n,r,t){return arguments.length===2&&typeof r=="function"&&(t=r,r=void 0),o(n,r).then(function(f){return e(f,t)})}}var m=u(s);export{m as c};

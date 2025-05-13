@@ -1,0 +1,1 @@
+import{r as n,z as c}from"./vendor-RE7Z-DOm9JKld.js";const t=(l,{slots:r})=>{var a;const{cellData:e,style:o}=l,s=((a=e==null?void 0:e.toString)==null?void 0:a.call(e))||"",i=n(r,"default",l,()=>[s]);return c("div",{class:l.class,title:s,style:o},[i])};t.displayName="ElTableV2Cell";t.inheritAttrs=!1;var u=t;export{u as T};

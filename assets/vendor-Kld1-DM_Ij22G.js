@@ -1,0 +1,1 @@
+import{b as e}from"./vendor-abgN-LwmGG8qH.js";import{i as o}from"./vendor-mSYn-nLWjQ9zq.js";var t=Object.prototype,a=t.hasOwnProperty,s=t.propertyIsEnumerable,c=e(function(){return arguments}())?e:function(r){return o(r)&&a.call(r,"callee")&&!s.call(r,"callee")};export{c as i};

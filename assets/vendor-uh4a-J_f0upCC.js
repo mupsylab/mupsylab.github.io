@@ -1,0 +1,1 @@
+import{p as n}from"./vendor-sC5d-B-dxDEiz.js";import{c as s}from"./vendor-7ars-BWXH4cjT.js";import{d as t,w as a,r as m}from"./vendor-RE7Z-DOm9JKld.js";const f={},c=t({name:"ElConfigProvider",props:s,setup(o,{slots:i}){a(()=>o.message,r=>{Object.assign(f,r??{})},{immediate:!0,deep:!0});const e=n(o);return()=>m(i,"default",{config:e==null?void 0:e.value})}});export{c as C,f as m};

@@ -1,0 +1,1 @@
+import{S as l}from"./vendor-UiHw-DYBkOt2p.js";function N(n){n||(n=u);function t(_,a){return _&&a?n(_.__data__,a.__data__):!_-!a}for(var f=this._groups,i=f.length,o=new Array(i),r=0;r<i;++r){for(var s=f[r],c=s.length,d=o[r]=new Array(c),h,e=0;e<c;++e)(h=s[e])&&(d[e]=h);d.sort(t)}return new l(o,this._parents).order()}function u(n,t){return n<t?-1:n>t?1:n>=t?0:NaN}export{N as s};

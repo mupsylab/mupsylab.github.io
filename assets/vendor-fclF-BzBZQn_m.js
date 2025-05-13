@@ -1,0 +1,1 @@
+import{i as n}from"./vendor-s3c4-BxiC9vcm.js";function s(u,t){return function(r,e){if(r==null)return r;if(!n(r))return u(r,e);for(var i=r.length,a=-1,f=Object(r);++a<i&&e(f[a],a,f)!==!1;);return r}}export{s as c};

@@ -1,0 +1,1 @@
+import{p as t}from"./vendor-RE7Z-DOm9JKld.js";const a=Symbol("elForwardRef"),u=e=>{t(a,{setForwardRef:r=>{e.value=r}})},n=e=>({mounted(o){e(o)},updated(o){e(o)},unmounted(){e(null)}});export{a as F,u as a,n as u};

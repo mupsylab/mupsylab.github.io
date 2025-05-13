@@ -1,0 +1,1 @@
+import{b as t}from"./vendor-BvSU-CYRVtLwv.js";import{u as e}from"./vendor-lKfH-5_WJSrFz.js";const i=t({border:Boolean,column:{type:Number,default:3},direction:{type:String,values:["horizontal","vertical"],default:"horizontal"},size:e,title:{type:String,default:""},extra:{type:String,default:""},labelWidth:{type:[String,Number],default:""}});export{i as d};

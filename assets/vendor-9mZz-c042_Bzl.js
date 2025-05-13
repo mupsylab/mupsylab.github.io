@@ -1,0 +1,1 @@
+import{c as m}from"./vendor-reyE-ClkSDHJf.js";import{l as t}from"./vendor-NwhO-DXTTfs9a.js";import{p as a}from"./vendor-Sxmt-DeA_QfXU.js";import{t as o}from"./vendor-0dWn-dUXtMYe1.js";function l(r,s){return s=m(s,r),r=a(r,s),r==null||delete r[o(t(s))]}export{l as b};

@@ -1,0 +1,1 @@
+import{b as n,d as t}from"./vendor-BvSU-CYRVtLwv.js";import{c as a}from"./vendor-7avT-DhdrFwTb.js";const i=n({options:{type:t(Array),default:()=>[]},loading:Boolean,disabled:Boolean,contentId:String,ariaLabel:String}),s={select:o=>a(o.value)};export{i as a,s as m};

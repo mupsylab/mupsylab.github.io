@@ -1,0 +1,1 @@
+import{b as e,d as t}from"./vendor-BvSU-CYRVtLwv.js";const i=e({decimalSeparator:{type:String,default:"."},groupSeparator:{type:String,default:","},precision:{type:Number,default:0},formatter:Function,value:{type:t([Number,Object]),default:0},prefix:String,suffix:String,title:String,valueStyle:{type:t([String,Object,Array])}});export{i as s};

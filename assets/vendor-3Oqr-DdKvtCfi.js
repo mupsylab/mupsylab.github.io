@@ -1,0 +1,1 @@
+import{c as l}from"./vendor-reyE-ClkSDHJf.js";import{t as s}from"./vendor-0dWn-dUXtMYe1.js";function f(n,r){r=l(r,n);for(var e=0,i=r.length;n!=null&&e<i;)n=n[s(r[e++])];return e&&e==i?n:void 0}export{f as b};

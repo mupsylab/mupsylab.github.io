@@ -1,0 +1,1 @@
+import{a as u}from"./vendor-1CSN-CZcXbIoq.js";var g=Math.max;function m(i,e,l){return e=g(e===void 0?i.length-1:e,0),function(){for(var n=arguments,r=-1,h=g(n.length-e,0),o=Array(h);++r<h;)o[r]=n[e+r];r=-1;for(var a=Array(e+1);++r<e;)a[r]=n[r];return a[e]=l(o),u(i,this,a)}}export{m as o};

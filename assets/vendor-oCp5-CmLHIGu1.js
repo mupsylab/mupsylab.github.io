@@ -1,0 +1,1 @@
+var o=Function.prototype,n=o.toString;function c(t){if(t!=null){try{return n.call(t)}catch{}try{return t+""}catch{}}return""}export{c as t};

@@ -1,0 +1,1 @@
+import{T as o}from"./vendor-dPWd-D7gD-Gbz.js";import{z as n,H as i,k as c}from"./vendor-RE7Z-DOm9JKld.js";function f(e){return typeof e=="function"||Object.prototype.toString.call(e)==="[object Object]"&&!c(e)}const b=(e,{slots:t})=>{const{mainTableRef:r,...a}=e;return n(o,i({ref:r},a),f(t)?t:{default:()=>[t]})};var m=b;export{m as M};

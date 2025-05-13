@@ -1,0 +1,1 @@
+import{a as h}from"./vendor-17Gd-lnK5TCUO.js";import{i as x}from"./vendor-6Ti3-BdXYqH_q.js";function F(a,i,f,m,n){var b=-1,g=a.length;for(f||(f=x),n||(n=[]);++b<g;){var o=a[b];i>0&&f(o)?i>1?F(o,i-1,f,m,n):h(n,o):m||(n[n.length]=o)}return n}export{F as b};

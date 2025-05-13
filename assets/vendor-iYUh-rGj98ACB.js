@@ -1,0 +1,1 @@
+import{p as o}from"./vendor-Puu3-D2fb1LLL.js";import{b as p,d as e}from"./vendor-BvSU-CYRVtLwv.js";import{E as r}from"./vendor-bP7i-BUADUvnR.js";const i=p({...o,disabled:Boolean,trigger:{type:e([String,Array]),default:"hover"},triggerKeys:{type:e(Array),default:()=>[r.enter,r.numpadEnter,r.space]}});export{i as u};

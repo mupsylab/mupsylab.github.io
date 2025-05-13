@@ -1,0 +1,1 @@
+import{c as o}from"./vendor-e754-nDF9U2Tk.js";function i(n,r){return function(t){return n+t*r}}function e(n,r,t){return n=Math.pow(n,t),r=Math.pow(r,t)-n,t=1/t,function(u){return Math.pow(n+u*r,t)}}function a(n){return(n=+n)==1?c:function(r,t){return t-r?e(r,t,n):o(isNaN(r)?t:r)}}function c(n,r){var t=r-n;return t?i(n,t):o(isNaN(n)?r:n)}export{a as g,c as n};

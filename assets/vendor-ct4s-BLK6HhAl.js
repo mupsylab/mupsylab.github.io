@@ -1,0 +1,1 @@
+import{S as y}from"./vendor-UiHw-DYBkOt2p.js";function S(n){for(var h=n.selection?n.selection():n,t=this._groups,i=h._groups,a=t.length,c=i.length,_=Math.min(a,c),l=new Array(a),e=0;e<_;++e)for(var o=t[e],v=i[e],s=o.length,w=l[e]=new Array(s),f,r=0;r<s;++r)(f=o[r]||v[r])&&(w[r]=f);for(;e<a;++e)l[e]=t[e];return new y(l,this._parents)}export{S as s};

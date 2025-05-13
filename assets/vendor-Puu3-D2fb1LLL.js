@@ -1,0 +1,1 @@
+import{b as o,d as n}from"./vendor-BvSU-CYRVtLwv.js";const t=o({virtualRef:{type:n(Object)},virtualTriggering:Boolean,onMouseenter:{type:n(Function)},onMouseleave:{type:n(Function)},onClick:{type:n(Function)},onKeydown:{type:n(Function)},onFocus:{type:n(Function)},onBlur:{type:n(Function)},onContextmenu:{type:n(Function)},id:String,open:Boolean});export{t as p};

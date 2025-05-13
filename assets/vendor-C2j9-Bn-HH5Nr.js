@@ -1,0 +1,1 @@
+function t(n){return function(r){return n(r)}}export{t as b};

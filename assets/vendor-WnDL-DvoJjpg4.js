@@ -1,0 +1,1 @@
+import{d as a}from"./vendor-v13v-B_uL0f_K.js";import{d as c}from"./vendor-7avT-DhdrFwTb.js";import{g as r,R as u,u as i}from"./vendor-RE7Z-DOm9JKld.js";const p=e=>{const{emit:o}=r(),l=u(),n=i();return t=>{const s=c(t.value)?t.value():t.value;if(s){o("pick",[a(s[0]).locale(e.value),a(s[1]).locale(e.value)]);return}t.onClick&&t.onClick({attrs:l,slots:n,emit:o})}};export{p as u};

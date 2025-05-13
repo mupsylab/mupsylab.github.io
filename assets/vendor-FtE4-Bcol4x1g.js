@@ -1,0 +1,1 @@
+function e(n,a){return n!=null&&a in Object(n)}export{e as b};

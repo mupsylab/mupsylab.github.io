@@ -1,0 +1,1 @@
+import{L as o}from"./vendor-BsYj-BoZTEtBU.js";import{v as r}from"./vendor-9TRw-B0nS6bfu.js";const n={install(i){i.directive("loading",r),i.config.globalProperties.$loading=o},directive:r,service:o};export{n as E};

@@ -1,0 +1,1 @@
+import{b as e,d as t}from"./vendor-BvSU-CYRVtLwv.js";import{C as i}from"./vendor-lLeK-BB_Ol6Sd.js";import{i as o}from"./vendor-UUu6-BeUS1t8s.js";const m=e({format:{type:String,default:"HH:mm:ss"},prefix:String,suffix:String,title:String,value:{type:t([Number,Object]),default:0},valueStyle:{type:t([String,Object,Array])}}),p={finish:()=>!0,[i]:r=>o(r)};export{m as a,p as c};

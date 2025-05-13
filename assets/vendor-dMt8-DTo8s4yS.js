@@ -1,0 +1,1 @@
+import{T as a}from"./vendor-dPWd-D7gD-Gbz.js";import{z as n,H as c,k as f}from"./vendor-RE7Z-DOm9JKld.js";function i(e){return typeof e=="function"||Object.prototype.toString.call(e)==="[object Object]"&&!f(e)}const l=(e,{slots:t})=>{if(!e.columns.length)return;const{rightTableRef:r,...o}=e;return n(a,c({ref:r},o),i(t)?t:{default:()=>[t]})};var m=l;export{m as R};

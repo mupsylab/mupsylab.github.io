@@ -1,0 +1,1 @@
+import{b as i,d as t}from"./vendor-BvSU-CYRVtLwv.js";import{c as n,i as r}from"./vendor-7avT-DhdrFwTb.js";const a=i({index:{type:t([String,null]),default:null},route:{type:t([String,Object])},disabled:Boolean}),d={click:e=>n(e.index)&&r(e.indexPath)};export{a,d as m};

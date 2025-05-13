@@ -1,0 +1,1 @@
+import{b as m}from"./vendor-zn6O-D84AoGWG.js";import{g as e}from"./vendor-pF8z-DB10Duve.js";import{m as n}from"./vendor-FyhR-CCmZgO7f.js";function f(a){var t=e(a);return t.length==1&&t[0][2]?n(t[0][0],t[0][1]):function(r){return r===a||m(r,a,t)}}export{f as b};

@@ -1,0 +1,1 @@
+import{c as e}from"./vendor-7avT-DhdrFwTb.js";import{i as n}from"./vendor-k87t-DYFOtHqs.js";const u=r=>{if(!n||r==="")return null;if(e(r))try{return document.querySelector(r)}catch{return null}return r};export{u as g};

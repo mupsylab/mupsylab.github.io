@@ -1,0 +1,1 @@
+import{r as u}from"./vendor-QhDm-CjL9P3Iu.js";var p=typeof exports=="object"&&exports&&!exports.nodeType&&exports,t=p&&typeof module=="object"&&module&&!module.nodeType&&module,d=t&&t.exports===p,n=d?u.Buffer:void 0,l=n?n.allocUnsafe:void 0;function c(e,s){if(s)return e.slice();var o=e.length,r=l?l(o):new e.constructor(o);return e.copy(r),r}export{c};

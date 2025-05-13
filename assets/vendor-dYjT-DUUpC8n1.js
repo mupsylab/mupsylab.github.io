@@ -1,0 +1,1 @@
+import{b as t,a as e}from"./vendor-Hi4W-gCCNgcWf.js";import{b as a,d as r}from"./vendor-BvSU-CYRVtLwv.js";const o="checked-change",f=a({data:e.data,optionRender:{type:r(Function)},placeholder:String,title:String,filterable:Boolean,format:e.format,filterMethod:e.filterMethod,defaultChecked:e.leftDefaultChecked,props:e.props}),p={[o]:t};export{o as C,f as a,p as t};

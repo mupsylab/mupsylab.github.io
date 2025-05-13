@@ -1,0 +1,1 @@
+import{R as h,L as c}from"./vendor-Hi4W-gCCNgcWf.js";const g=(n,r)=>({onSourceCheckedChange:(e,C)=>{n.leftChecked=e,C&&r(c,e,C)},onTargetCheckedChange:(e,C)=>{n.rightChecked=e,C&&r(h,e,C)}});export{g as u};

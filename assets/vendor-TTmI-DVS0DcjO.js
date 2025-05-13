@@ -1,0 +1,1 @@
+import{w as r}from"./vendor-RE7Z-DOm9JKld.js";import{u as t}from"./vendor-eqDO-Ti6p_k8X.js";const n=({from:o,replacement:a,scope:m,version:p,ref:s,type:c="API"},e)=>{r(()=>t(e),f=>{},{immediate:!0})};export{n as u};

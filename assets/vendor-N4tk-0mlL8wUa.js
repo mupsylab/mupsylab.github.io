@@ -1,0 +1,1 @@
+import{g as n,s}from"./vendor-2LuU-DX86OOUr.js";function i(e,t){if(typeof t!="function")throw new Error;return function(){s(this,e).ease=t}}function o(e){var t=this._id;return arguments.length?this.each(i(t,e)):n(this.node(),t).ease}export{o as t};

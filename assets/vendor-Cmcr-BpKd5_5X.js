@@ -1,0 +1,1 @@
+import{c as e}from"./vendor-aiL5-Cz18J1Qc.js";import{s as i}from"./vendor-Hzlo-BkXodU1q.js";function l(){return null}function c(n,t){var r=typeof n=="function"?n:e(n),s=t==null?l:typeof t=="function"?t:i(t);return this.select(function(){return this.insertBefore(r.apply(this,arguments),s.apply(this,arguments)||null)})}export{c as s};

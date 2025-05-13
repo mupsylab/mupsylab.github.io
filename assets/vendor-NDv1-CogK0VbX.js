@@ -1,0 +1,1 @@
+import{b as e}from"./vendor-Fq1d-qefZ2EtI.js";import{b as o,d as t}from"./vendor-BvSU-CYRVtLwv.js";import{i as r}from"./vendor-9yxy-Cbwm2u4R.js";const d=o({title:{type:String,default:""},name:{type:t([String,Number]),default:void 0},icon:{type:r,default:e},disabled:Boolean});export{d as c};

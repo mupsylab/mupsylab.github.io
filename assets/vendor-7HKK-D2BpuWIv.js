@@ -1,0 +1,1 @@
+const r=(i,x,e)=>{var f;const h={flexGrow:0,flexShrink:0,...e?{}:{flexGrow:i.flexGrow||0,flexShrink:i.flexShrink||1}};e||(h.flexShrink=1);const t={...(f=i.style)!=null?f:{},...h,flexBasis:"auto",width:i.width};return x||(i.maxWidth&&(t.maxWidth=i.maxWidth),i.minWidth&&(t.minWidth=i.minWidth)),t};export{r as c};

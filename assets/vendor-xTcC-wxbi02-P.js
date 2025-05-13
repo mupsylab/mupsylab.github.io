@@ -1,0 +1,1 @@
+import{u as r}from"./vendor-unoq-CFxLHdLI.js";import{d,n as c}from"./vendor-RE7Z-DOm9JKld.js";var m=d({name:"NodeContent",setup(){return{ns:r("cascader-node")}},render(){const{ns:e}=this,{node:n,panel:t}=this.$parent,{data:a,label:o}=n,{renderLabelFn:s}=t;return c("span",{class:e.e("label")},s?s({node:n,data:a}):o)}});export{m as N};

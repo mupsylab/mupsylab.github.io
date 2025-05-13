@@ -1,0 +1,1 @@
+import{r as f}from"./vendor-QhDm-CjL9P3Iu.js";import{s as t}from"./vendor-WPuR-Bs29J8rJ.js";var o=typeof exports=="object"&&exports&&!exports.nodeType&&exports,e=o&&typeof module=="object"&&module&&!module.nodeType&&module,s=e&&e.exports===o,r=s?f.Buffer:void 0,p=r?r.isBuffer:void 0,a=p||t;export{a as i};

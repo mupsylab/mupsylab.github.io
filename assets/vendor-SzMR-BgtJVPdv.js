@@ -1,0 +1,1 @@
+import{z as s}from"./vendor-RE7Z-DOm9JKld.js";const r=(a,{slots:l})=>{var e;return s("div",{class:a.class,style:a.style},[(e=l.default)==null?void 0:e.call(l)])};r.displayName="ElTableV2Overlay";var v=r;export{v as O};

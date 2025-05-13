@@ -1,0 +1,1 @@
+import{r as o}from"./vendor-k51Y-BtmfczDI.js";var f=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};function r(e){return e&&e.__esModule&&Object.prototype.hasOwnProperty.call(e,"default")?e.default:e}var t=o();const l=r(t);export{f as c,r as g,l as i};

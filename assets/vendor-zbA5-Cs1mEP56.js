@@ -1,0 +1,1 @@
+import{S as t}from"./vendor-Ar89-0u1S7_th.js";import{g as r}from"./vendor-SPNG-Ca8nR-j-.js";import{o as e}from"./vendor-ja7M-C8vn-Kg0.js";var i="[object Null]",g="[object Undefined]",o=t?t.toStringTag:void 0;function m(n){return n==null?n===void 0?g:i:o&&o in Object(n)?r(n):e(n)}export{m as b};

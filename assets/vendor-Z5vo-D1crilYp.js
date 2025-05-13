@@ -1,0 +1,1 @@
+import{s as h}from"./vendor-2LuU-DX86OOUr.js";function d(){var t,n,i=this,c=i._id,e=i.size();return new Promise(function(o,r){var s={value:r},f={value:function(){--e===0&&o()}};i.each(function(){var a=h(this,c),u=a.on;u!==t&&(n=(t=u).copy(),n._.cancel.push(s),n._.interrupt.push(s),n._.end.push(f)),a.on=n}),e===0&&o()})}export{d as t};

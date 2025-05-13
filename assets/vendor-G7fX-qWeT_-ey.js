@@ -1,0 +1,1 @@
+import{b as o}from"./vendor-BvSU-CYRVtLwv.js";import{c as e}from"./vendor-UUu6-BeUS1t8s.js";import{C as r}from"./vendor-lLeK-BB_Ol6Sd.js";const t=o({checked:Boolean,disabled:Boolean,type:{type:String,values:["primary","success","info","warning","danger"],default:"primary"}}),p={"update:checked":a=>e(a),[r]:a=>e(a)};export{t as a,p as c};

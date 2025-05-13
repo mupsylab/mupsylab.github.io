@@ -1,0 +1,1 @@
+import{b as t,d as e}from"./vendor-BvSU-CYRVtLwv.js";const a=t({zIndex:{type:Number,default:9},rotate:{type:Number,default:-22},width:Number,height:Number,image:String,content:{type:e([String,Array]),default:"Element Plus"},font:{type:e(Object)},gap:{type:e(Array),default:()=>[100,100]},offset:{type:e(Array)}});export{a as w};

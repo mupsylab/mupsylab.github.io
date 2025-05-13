@@ -1,0 +1,1 @@
+import{z as r}from"./vendor-RE7Z-DOm9JKld.js";const o=(a,{slots:e})=>{var l;return r("div",{class:a.class,style:a.style},[(l=e.default)==null?void 0:l.call(e)])};o.displayName="ElTableV2Footer";var s=o;export{s as F};

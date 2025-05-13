@@ -1,0 +1,1 @@
+import{E as c}from"./vendor-AQSj-DFJim-ok.js";import{b as d}from"./vendor-Fq1d-qefZ2EtI.js";import{z as a,H as p}from"./vendor-RE7Z-DOm9JKld.js";const i=o=>{const{expanded:e,expandable:n,onExpand:s,style:r,size:t}=o,l={onClick:n?()=>s(!e):void 0,class:o.class};return a(c,p(l,{size:t,style:r}),{default:()=>[a(d,null,null)]})};var f=i;export{f as E};

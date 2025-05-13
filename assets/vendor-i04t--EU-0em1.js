@@ -1,0 +1,1 @@
+import{B as a}from"./vendor-N4Y4-BDP52bG6.js";import{B as r}from"./vendor-dN6p-CBDIXrBx.js";import{w as m,b as t}from"./vendor-xSPj-B5x2hH2b.js";const c=m(a,{BreadcrumbItem:r}),l=t(r);export{c as E,l as a};

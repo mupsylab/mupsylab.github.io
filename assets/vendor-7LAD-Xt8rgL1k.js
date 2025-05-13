@@ -1,0 +1,1 @@
+function a(){for(var o=this._groups,s=-1,f=o.length;++s<f;)for(var e=o[s],i=e.length-1,r=e[i],t;--i>=0;)(t=e[i])&&(r&&t.compareDocumentPosition(r)^4&&r.parentNode.insertBefore(t,r),r=t);return this}export{a as s};

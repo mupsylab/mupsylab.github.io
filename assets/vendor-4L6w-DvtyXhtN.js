@@ -1,0 +1,1 @@
+import{M as i}from"./vendor-k3iX-BhOrz2LK.js";class s{constructor(o,e){this.domNode=o,this.init(e)}init(o){const e=this.domNode.childNodes;Array.from(e).forEach(t=>{t.nodeType===1&&new i(t,o)})}}export{s as M};

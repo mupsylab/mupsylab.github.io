@@ -1,0 +1,1 @@
+import{D as a}from"./vendor-khVl-CA-lhdxX.js";import{D as r}from"./vendor-zloz-B9xs91qi.js";import{M as n}from"./vendor-3rFD-DMPXnMnN.js";import{Y as t}from"./vendor-PEOb-B9TI02Mx.js";const m=function(e){switch(e){case"daterange":case"datetimerange":return r;case"monthrange":return n;case"yearrange":return t;default:return a}};export{m as g};

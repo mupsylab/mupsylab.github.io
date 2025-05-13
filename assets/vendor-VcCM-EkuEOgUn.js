@@ -1,0 +1,1 @@
+import{b as e,d as o}from"./vendor-BvSU-CYRVtLwv.js";const n=e({delayDuration:{type:Number,default:300},defaultOpen:Boolean,open:{type:Boolean,default:void 0},onOpenChange:{type:o(Function)},"onUpdate:open":{type:o(Function)}});export{n as t};

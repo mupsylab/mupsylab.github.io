@@ -1,0 +1,1 @@
+import{p as e}from"./vendor-HU9V--yLqoBtm.js";import{b as p,d as r}from"./vendor-BvSU-CYRVtLwv.js";const t=p({...e,parsedValue:{type:r([Object,Array])},visible:{type:Boolean},format:{type:String,default:""}});export{t as p};

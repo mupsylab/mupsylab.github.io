@@ -1,0 +1,1 @@
+import{d as c}from"./vendor-8m9n-BdWLI0gj.js";const d=function a(e){function u(l,t){var r,n;return l=l==null?0:+l,t=t==null?1:+t,function(){var o;if(r!=null)o=r,r=null;else do r=e()*2-1,o=e()*2-1,n=r*r+o*o;while(!n||n>1);return l+t*o*Math.sqrt(-2*Math.log(n)/n)}}return u.source=a,u}(c);export{d as n};

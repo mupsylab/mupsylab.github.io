@@ -1,0 +1,1 @@
+import{c as r}from"./vendor-RE7Z-DOm9JKld.js";const k=m=>r(()=>m.marks?Object.keys(m.marks).map(Number.parseFloat).sort((a,e)=>a-e).filter(a=>a<=m.max&&a>=m.min).map(a=>({point:a,position:(a-m.min)*100/(m.max-m.min),mark:m.marks[a]})):[]);export{k as u};

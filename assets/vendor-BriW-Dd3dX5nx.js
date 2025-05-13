@@ -1,0 +1,1 @@
+import{m as r}from"./vendor-GQie-BdPwpGay.js";import{m as t}from"./vendor-2ftE-BtNxPRMG.js";import{g as m,c as s}from"./vendor-RE7Z-DOm9JKld.js";const f=()=>{const o=m().proxy.$props;return s(()=>{const e=(n,c,a)=>({});return o.perfMode?t(e):r(e)})};export{f as u};

@@ -14,8 +14,8 @@ export default {
 
 <style scoped>
 .container {
+    grid-column: 1 / 13;
     width: 500px;
-    background: #fff;
     margin: 280px auto;
     position: relative;
     padding: 20px 40px;

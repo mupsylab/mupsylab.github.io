@@ -7,7 +7,7 @@ import { MoreFilled } from '@element-plus/icons-vue';
 import SwitchTheme from '@/components/SwitchTheme.vue';
 
 const isMobile = ref(false);
-const judgeDevice = () => { isMobile.value = window.innerWidth < 600; }
+const judgeDevice = () => { isMobile.value = window.outerWidth < 600; }
 onMounted(() => { window.addEventListener("resize", judgeDevice); judgeDevice(); });
 onUnmounted(() => { window.removeEventListener("resize", judgeDevice); });
 

@@ -29,7 +29,6 @@ export default {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    color: #262626;
     position: absolute;
     top: 0;
     left: 0;
@@ -37,7 +36,7 @@ export default {
     line-height: 300px;
     font-size: 2em;
     background: transparent;
-    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 1);
 }
 @keyframes animate {
     0% {

@@ -28,16 +28,16 @@ export default {
     padding: 10px;
     border-top: 2px solid transparent;
     border-right: 2px solid transparent;
-    border-bottom: 2px solid #262626;
-    border-left: 2px solid #262626;
+    border-bottom: 2px solid #e3e3e3;
+    border-left: 2px solid #e3e3e3;
     border-radius: 50%;
     animation: small 1s linear infinite;
 }
 .medium {
     display: inline-block;
     padding: 10px;
-    border-top: 2px solid #262626;
-    border-right: 2px solid #262626;
+    border-top: 2px solid #e3e3e3;
+    border-right: 2px solid #e3e3e3;
     border-bottom: 2px solid transparent;
     border-left: 2px solid transparent;
     border-radius: 50%;
@@ -48,8 +48,8 @@ export default {
     padding: 10px;
     border-top: 2px solid transparent;
     border-right: 2px solid transparent;
-    border-bottom: 2px solid #262626;
-    border-left: 2px solid #262626;
+    border-bottom: 2px solid #e3e3e3;
+    border-left: 2px solid #e3e3e3;
     border-radius: 50%;
     animation: large 1s linear infinite;
 }

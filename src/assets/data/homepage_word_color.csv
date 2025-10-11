@@ -1,0 +1,80 @@
+,word,color
+0,Autonomy violation,#8b0000
+1,Betrayal,#8b0000
+2,Challenge authority,#8b0000
+3,Desire,#8b0000
+4,Disgust,#8b0000
+5,Fairness violation,#8b0000
+6,Harm to others,#8b0000
+7,Harm to the self,#8b0000
+8,Hedonism,#8b0000
+9,Irresponsibility,#8b0000
+10,Norm violation,#8b0000
+11,Self-indulgence,#8b0000
+12,Unjust-gain,#8b0000
+13,Ability,#8b0000
+14,Harm to society,#8b0000
+15,Disrupt social order,#8b0000
+16,Psychological harm,#8b0000
+17,Self-interest,#8b0000
+18,Strategy,#8b0000
+19,Injustice,#8b0000
+20,Aggressiveness,#8b0000
+21,Cost,#8b0000
+22,Guilt ,#8b0000
+23,Harm to life,#8b0000
+24,Harm to property,#8b0000
+25,Harm to the environment,#8b0000
+26,Hate,#8b0000
+27,Impulsivity,#8b0000
+28,Oppression,#8b0000
+29,Perceived harm,#8b0000
+30,Sexual relevance,#8b0000
+31,Shame ,#8b0000
+32,Anger,#8b0000
+33,Deception,#8b0000
+34,Coldness,#8b0000
+35,Deliberateness,#8b0000
+36,Sense of dirtiness,#8b0000
+37,Callousness,#8b0000
+38,Contempt ,#8b0000
+39,Pressure,#8b0000
+40,Altruism,#027d33
+41,Care for others,#027d33
+42,Competence,#027d33
+43,Courage,#027d33
+44,Duty,#027d33
+45,Empathy,#027d33
+46,Indignation,#027d33
+47,Love,#027d33
+48,Material cost,#027d33
+49,Obey rule,#027d33
+50,Dedication,#027d33
+51,Self-advancement,#027d33
+52,Self-control,#027d33
+53,Social contribution,#027d33
+54,Temperance,#027d33
+55,Promotion,#027d33
+56,Reputation,#027d33
+57,Benefit others materially,#027d33
+58,Benefit others physically,#027d33
+59,Benefit others spiritually,#027d33
+60,Material reward,#027d33
+61,Pro-environment,#027d33
+62,Self-discipline,#027d33
+63,Self-Identification,#027d33
+64,Urgency,#027d33
+65,Honesty,#027d33
+66,Flexibility,#027d33
+67,Loyalty,#027d33
+68,Autonomy,#027d33
+69,Warmth,#027d33
+70,Sanctity,#027d33
+71,Gratitude,#027d33
+72,Fairness,#027d33
+73,Justice,#027d33
+74,Pleasure,#027d33
+75,Passion,#027d33
+76,Respect,#027d33
+77,Nobility,#027d33
+78,Uphold social order,#027d33

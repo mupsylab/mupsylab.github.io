@@ -68,7 +68,6 @@ onMounted(() => {
 
 <style scoped>
 .box {
-  height: 0;
   grid-column: 1 / 13;
 }
 </style>

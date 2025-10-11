@@ -1,15 +1,17 @@
 <template>
     <div class="box">
-        <svg>
-            <path>
+        <div>
+            <svg width="400" height="150">
+                <path>
 
-            </path>
-        </svg>
-        <svg>
-            <path>
+                </path>
+            </svg>
+            <svg width="400" height="150">
+                <path>
 
-            </path>
-        </svg>
+                </path>
+            </svg>
+        </div>
     </div>
 </template>
 
@@ -21,14 +23,18 @@ export default {
 
 <style scoped>
 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-column: 1 / 13;
 }
 svg {
+    display: block;
     fill: none;
-    width: 100%;
 }
 
 svg:nth-child(2) {
+    display: block;
     filter: blur(40px);
 }
 

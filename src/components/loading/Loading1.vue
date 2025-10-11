@@ -38,7 +38,6 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: grey;
     animation: animateBg 10s linear infinite;
 }
 

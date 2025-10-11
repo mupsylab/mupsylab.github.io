@@ -25,7 +25,7 @@ ul li {
     list-style: none;
     width: 6px;
     height: 20px;
-    background: #262626;
+    background: #fff;
     margin: 0 4px;
     animation: animate .7s infinite alternate;
 }

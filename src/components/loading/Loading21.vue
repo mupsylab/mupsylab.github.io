@@ -20,6 +20,8 @@ export default {
 .loader {
     height: 40px;
     width: 200px;
+    margin: auto;
+    grid-column: 1 / 13;
 }
 
 .loader span {

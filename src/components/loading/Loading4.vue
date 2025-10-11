@@ -19,30 +19,26 @@ export default {
 {
     grid-column: 1 / 13;
     position: relative;
-    width: 100%;
-    transform: rotate(-30deg) translateY(150px);
 }
 .container .box
 {
-    position: relative;
-    left: -200px;
     display: flex;
+    margin: 200px 0 0 0;
     justify-content: center;
     align-items: center;
-    width: calc(100% + 400px);
-    /* height: 400px; */
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
     animation: animateSurface 1.5s ease-in-out infinite;
+    transform: rotate(-30deg);
 }
 @keyframes animateSurface
 {
     0%
     {
-        transform: translateX(0px);
+        transform: rotate(-30deg) translateX(0px);
     }
     100%
     {
-        transform: translateX(-200px);
+        transform: rotate(-30deg) translateX(-200px);
     }
 }
 .container .box .cube

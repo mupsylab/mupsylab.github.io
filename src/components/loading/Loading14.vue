@@ -24,7 +24,6 @@ export default {
     width: 200px;
     height: 200px;
     box-sizing: border-box;
-    background: #000;
 }
 
 .loader .face {

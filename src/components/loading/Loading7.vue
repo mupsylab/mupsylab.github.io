@@ -1,14 +1,4 @@
 <template>
-    <svg>
-        <filter id="gooey">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="10"/>
-            <feColorMatrix values="
-                1 0 0 0 0
-                0 1 0 0 0
-                0 0 1 0 0
-                0 0 0 20 -10"></feColorMatrix>
-        </filter>
-    </svg>
     <div class="loader">
         <span style="--i:1"></span>
         <span style="--i:2"></span>
@@ -24,6 +14,16 @@
         <span class="rotate" style="--j:3"></span>
         <span class="rotate" style="--j:4"></span>
     </div>
+    <svg>
+        <filter id="gooey">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10"/>
+            <feColorMatrix values="
+                1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 20 -10"></feColorMatrix>
+        </filter>
+    </svg>
 </template>
 
 <script>

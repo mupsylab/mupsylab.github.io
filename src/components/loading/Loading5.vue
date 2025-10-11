@@ -20,7 +20,6 @@ export default {
     grid-column: 1 / 13;
     display: flex;
     flex-direction: row;
-    background: #fff;
 }
 .loader div
 {

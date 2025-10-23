@@ -1,9 +1,24 @@
 :root {
     /* 用于反白场景 */
-    --opacity-white-1: #ffffff1a;
-    --opacity-white-25: #ffffff40;
-    --opacity-white-50: #ffffff80;
-    --opacity-white-65: #ffffffa6;    
+    --opacity-white-05: rgba(255, 255, 255, 0.05);
+    --opacity-white-10: rgba(255, 255, 255, 0.10);
+    --opacity-white-15: rgba(255, 255, 255, 0.15);
+    --opacity-white-20: rgba(255, 255, 255, 0.20);
+    --opacity-white-25: rgba(255, 255, 255, 0.25);
+    --opacity-white-30: rgba(255, 255, 255, 0.30);
+    --opacity-white-35: rgba(255, 255, 255, 0.35);
+    --opacity-white-40: rgba(255, 255, 255, 0.40);
+    --opacity-white-45: rgba(255, 255, 255, 0.45);
+    --opacity-white-50: rgba(255, 255, 255, 0.50);
+    --opacity-white-55: rgba(255, 255, 255, 0.55);
+    --opacity-white-60: rgba(255, 255, 255, 0.60);
+    --opacity-white-65: rgba(255, 255, 255, 0.65);
+    --opacity-white-70: rgba(255, 255, 255, 0.70);
+    --opacity-white-75: rgba(255, 255, 255, 0.75);
+    --opacity-white-80: rgba(255, 255, 255, 0.80);
+    --opacity-white-85: rgba(255, 255, 255, 0.85);
+    --opacity-white-90: rgba(255, 255, 255, 0.90);
+    --opacity-white-95: rgba(255, 255, 255, 0.95);
 }
 
 :root {
